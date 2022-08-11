@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
-  particle: {fileID: 0}
+  particle: {fileID: 7088223920728855728, guid: dff8717ca062cc5409096c2e11dfef06, type: 3}
   effectDuration: 5
   bulletType: 1
   radius: 0

@@ -81,9 +81,6 @@ public abstract class Turrets : MonoBehaviour
     protected void Basic(Turrets t, Vector2 direction)
     {
         startShoot(direction);
-        print("calling");
-
-        //this never gets called. determine why
     }
 
     protected static IEnumerator Timer(Turrets t, Vector2 dir, float time)
@@ -131,8 +128,6 @@ public abstract class Turrets : MonoBehaviour
 
     private void ChooseAttackType()
     {
-        print("ChooseAttackType is called");
-
         switch (attackType)
         {
             case TAttackType.Burst:

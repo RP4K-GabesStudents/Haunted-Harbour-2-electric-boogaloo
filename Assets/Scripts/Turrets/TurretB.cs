@@ -6,9 +6,11 @@ public class TurretB : Turrets
 {
     SpriteRenderer sr;
     
-    protected void Awake()
+    protected override void Awake()
        
     {
+        base.Awake();
+
     sr = GetComponent<SpriteRenderer>();
 
 

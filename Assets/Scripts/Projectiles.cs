@@ -59,7 +59,7 @@ public class Projectiles : MonoBehaviour
     private void FireDamage(Character other)
     {
         GameObject go = Instantiate(particle, other.transform);
-        other.StartCoroutine(other.SetOnFire(effectDuration, 0));
+        other.StartCoroutine(other.SetOnFire(effectDuration, 5));
         Destroy(go, effectDuration);
     }
 
@@ -98,6 +98,7 @@ public class Projectiles : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        print("hello");
         if (col.gameObject.TryGetComponent(out Character character))
         {
             character.TakeDamage(damage, Vector3.zero);
