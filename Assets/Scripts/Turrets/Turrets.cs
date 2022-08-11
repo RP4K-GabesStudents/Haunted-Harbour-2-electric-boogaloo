@@ -24,14 +24,13 @@ public abstract class Turrets : MonoBehaviour
 
     //I hate Static Utilities I hate them so much
     [SerializeField] private TAttackType attackType;
-    [SerializeField] private EBulletType bulletType;
 
     private TurretAttackTypeDel selectedAttackType;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        targetObject = GameManager.Instance.Player.transform;
     }
 
     // fixed update, because we used time in shooting???
@@ -159,21 +158,7 @@ public abstract class Turrets : MonoBehaviour
 
     private void ChooseBulletType()
     {
-        switch (bulletType)
-        {
-            case EBulletType.Red:
-                //SET the bullet to red
-                break;
-            case EBulletType.Purple:
-                //SET THE BULLET TO = TO COLOR?????
-                break;
-            case EBulletType.Green:
-                //SET THE BULLET TO = TO COLOR?????
-                break;
-            case EBulletType.Fire:
-                //SET THE BULLET TO = TO COLOR?????
-                break;
-        }
+
     }
 }
 
