@@ -11,7 +11,7 @@ public abstract class Turrets : MonoBehaviour
 
     //Shooting Behavior
     [SerializeField] GameObject bullet;
-    [SerializeField] public GameObject[] bullets;
+    [SerializeField] public GameObject[] bulletsList;
 
     [SerializeField] protected float shootTimer;
     [SerializeField] protected float burstShootDelay;
@@ -34,7 +34,10 @@ public abstract class Turrets : MonoBehaviour
     void Start()
     {
         targetObject = GameManager.Instance.Player.transform;
+
         ChooseAttackType();
+
+        //bulletsList = new 
     }
 
     // fixed update, because we used time in shooting???
