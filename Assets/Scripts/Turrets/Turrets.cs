@@ -11,6 +11,8 @@ public abstract class Turrets : MonoBehaviour
 
     //Shooting Behavior
     [SerializeField] GameObject bullet;
+    [SerializeField] public GameObject[] bullets;
+
     [SerializeField] protected float shootTimer;
     [SerializeField] protected float burstShootDelay;
     [SerializeField] protected float shootDelay;
@@ -20,6 +22,7 @@ public abstract class Turrets : MonoBehaviour
     protected int shotgunSpread = 10;
     protected delegate void TurretAttackTypeDel(Turrets turret, Vector2 direction);
     protected Coroutine currentRoutine;
+
 
 
     //I hate Static Utilities I hate them so much
