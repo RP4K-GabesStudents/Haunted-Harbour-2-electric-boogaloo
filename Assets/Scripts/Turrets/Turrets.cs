@@ -31,6 +31,7 @@ public abstract class Turrets : MonoBehaviour
     void Start()
     {
         targetObject = GameManager.Instance.Player.transform;
+        ChooseAttackType();
     }
 
     // fixed update, because we used time in shooting???
@@ -68,25 +69,6 @@ public abstract class Turrets : MonoBehaviour
 
         go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 5); //hard coded for now, projectile lifetime of 5 seconds
         go.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
-    }
-
-    protected virtual void OnCollisionEnter2D(Collision2D collision)
-    {
-        Destroy(gameObject);
-    }
-
-    protected void OnDestroy()
-    {
-
-    }
-
-    protected void Cloak()
-    {
-    }
-
-    protected void Uncloak()
-    {
-
     }
 
 
@@ -156,10 +138,34 @@ public abstract class Turrets : MonoBehaviour
         }
     }
 
-   protected virtual void ChooseBulletType()
+    protected virtual void ChooseBulletType()
     {
 
-    } 
+    }
+
+
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
+    }
+
+
+    protected void OnDestroy()
+    {
+
+    }
+
+
+    protected void Cloak()
+    {
+    }
+
+
+    protected void Uncloak()
+    {
+
+    }
+
 }
 
 
