@@ -13,7 +13,7 @@ public class Character : MonoBehaviour
     //SerializedField means access in unity
     [SerializeField] protected int health; //can be accessed only by parent and child
     [SerializeField] protected int jumpForce;
-    [SerializeField] protected float moveSpeed;
+    [SerializeField] public float moveSpeed;
     [SerializeField] protected float velocityLimit;
 
 

@@ -13,7 +13,7 @@ public class TurretA : Turrets
         {
             if (col.gameObject.TryGetComponent(out Player ply))
             {
-                ply.StartCoroutine(ply.SetTempSpeed(5, 40));
+                ply.StartCoroutine(ply.SetTempSpeed(5, ply.moveSpeed * 2));
             }
             
         }
