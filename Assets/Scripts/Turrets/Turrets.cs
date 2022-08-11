@@ -150,23 +150,19 @@ public abstract class Turrets : MonoBehaviour
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-    }
-
-
-    protected void OnDestroy()
-    {
-
+        //play sound
     }
 
 
     protected void Cloak()
     {
+        //play a sound
     }
 
 
     protected void Uncloak()
     {
-
+        //play sound
     }
 
 }
