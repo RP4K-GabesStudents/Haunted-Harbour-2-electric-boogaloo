@@ -28,7 +28,7 @@ public abstract class Turrets : MonoBehaviour
     //I hate Static Utilities I hate them so much
     [SerializeField] private TAttackType attackType;
 
-    private TurretAttackTypeDel selectedAttackType;
+    protected TurretAttackTypeDel selectedAttackType;
 
     protected virtual void Awake()
     {
@@ -50,27 +50,25 @@ public abstract class Turrets : MonoBehaviour
 
     public void Shoot()
     {
-        //is this function even necessary
-        shootTimer += Time.deltaTime; //increment timer
-        Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
-
-        if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
+        if (!isCloaked)
         {
-            //select direction and shoot there normally
-            Vector2 directionShoot = line.normalized;
-            selectedAttackType?.Invoke(this, directionShoot);
+            //is this function even necessary
+            shootTimer += Time.deltaTime; //increment timer
+            Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
 
-            print(selectedAttackType != null); //currently selected attack type is null for some reason
+            if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
+            {
+                //select direction and shoot there using the selected attack type
+                Vector2 directionShoot = line.normalized;
+                selectedAttackType?.Invoke(this, directionShoot);
 
-            shootTimer = 0; //reset timer  
+                shootTimer = 0; //reset timer  
+            }
 
-
-
-            //so far, this is being called but the turret isnt shooting. likely a problem with selected attack type
         }
-
     }
 
+    //WHAT THIS DOES IS MAKE A BULLET
     protected virtual void startShoot(Vector2 direction)
     {
         GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); //create instance of a bullet, at char position, with no rotation
@@ -123,6 +121,7 @@ public abstract class Turrets : MonoBehaviour
         }
     }
 
+  
     public enum TAttackType
     {
         Basic,
@@ -144,7 +143,8 @@ public abstract class Turrets : MonoBehaviour
                 break;
             case TAttackType.Basic:
                 selectedAttackType = Basic;
-                print(selectedAttackType != null);
+                break;
+            default:
                 break;
         }
     }
