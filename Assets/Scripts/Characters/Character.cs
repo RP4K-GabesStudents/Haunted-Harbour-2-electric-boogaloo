@@ -22,6 +22,8 @@ public class Character : MonoBehaviour
     [SerializeField] protected bool isShootingCircle;
     [SerializeField] public Vector2 movementVector; //this
 
+    [SerializeField] private AudioClip shootSound;
+
     public float distance; //for the enemy distance
 
 
@@ -47,7 +49,6 @@ public class Character : MonoBehaviour
 
     private Camera c;
     private float shootTimer = 0;
-
 
     private static readonly int Direction = Animator.StringToHash("Direction");
     private float dir; //last direction of the player
@@ -231,6 +232,8 @@ public class Character : MonoBehaviour
 
         go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 5); //hard coded for now, projectile lifetime of 5 seconds
         go.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+
+        GameManager.Instance.AudioManager.PlayOneShot(shootSound);
     }
 
     protected virtual void Die()
