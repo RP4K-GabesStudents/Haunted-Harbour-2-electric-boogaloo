@@ -643,7 +643,7 @@ MonoBehaviour:
   bullet: {fileID: 5474946165435932391, guid: 39bc438b7d7ef5045a455483078c55b7, type: 3}
   bulletSpeed: 5
   spread: 0
-  bulletsToShoot: 0
+  bulletsToShoot: 1
   angle: 0
   contactDamage: 1
   attackType: 1
@@ -792,7 +792,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.4169154, y: 1}
+    m_SensorSize: {x: 2.0893536, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7381,10 +7381,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ViktorTesla_0
       objectReference: {fileID: 0}
-    - target: {fileID: 2320193666733951009, guid: 49a43768521a9f344ad86eb6c2d96c9a, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2320193666733951012, guid: 49a43768521a9f344ad86eb6c2d96c9a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -7432,7 +7428,7 @@ PrefabInstance:
     - target: {fileID: 2320193666733951035, guid: 49a43768521a9f344ad86eb6c2d96c9a, type: 3}
       propertyPath: bullet
       value: 
-      objectReference: {fileID: 1930664520520271510, guid: 38c3f0e50ec9c27458d5450426df4324, type: 3}
+      objectReference: {fileID: 4860388887964909589, guid: be060d9104e22b044b1b561e0a80b207, type: 3}
     - target: {fileID: 2320193666733951035, guid: 49a43768521a9f344ad86eb6c2d96c9a, type: 3}
       propertyPath: spread
       value: 5

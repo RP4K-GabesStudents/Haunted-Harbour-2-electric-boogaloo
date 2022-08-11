@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2320193666733951008}
   - component: {fileID: 2320193666733951035}
   - component: {fileID: 2320193666733951034}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ViktorTesla_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,12 +148,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
+  maxHealth: 0
   jumpForce: 500
   moveSpeed: 500
   velocityLimit: 0
   isShooting: 0
   isShootingCircle: 0
   movementVector: {x: 0, y: 0}
+  shootSound: {fileID: 0}
   distance: 0
   numJumps: 5
   endJumpTime: 0.5
@@ -162,7 +164,6 @@ MonoBehaviour:
   targetObject: {fileID: 0}
   bullet: {fileID: 0}
   bulletSpeed: 5
-  bulletType: 2
   spread: 0
   bulletsToShoot: 0
   coinCount: 0

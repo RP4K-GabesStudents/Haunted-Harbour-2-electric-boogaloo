@@ -143,7 +143,8 @@ public class Character : MonoBehaviour
     public virtual void TakeDamage(int damage, Vector3 force)
     {
         health -= damage;
-        myRB.AddForce(-force * damage, ForceMode2D.Impulse); //impulse so that it doesnt accelerate (instant force)
+        //Made force + because was moving wrong way
+        myRB.AddForce(force * damage, ForceMode2D.Impulse); //impulse so that it doesnt accelerate (instant force)
 
         if (health <= 0)
         {
@@ -155,8 +156,7 @@ public class Character : MonoBehaviour
     protected void Shoot()
     {
         shootTimer += Time.deltaTime;
-
-        if (isShooting && shootTimer > shootDelay) //if player is trying to shoot, check timer
+        if (isShooting && shootTimer > shootDelay && health > 0) //if player is trying to shoot, check timer
         {
             shootTimer = 0; //reset timer
 
@@ -241,6 +241,8 @@ public class Character : MonoBehaviour
 
     protected virtual void Die()
     {
+        moveSpeed = 0; // Set movespeed to 0 when dead.
+        jumpForce = 0; // Set jump to 0 when dead
         Destroy(gameObject, 3.0f);
     }
 
