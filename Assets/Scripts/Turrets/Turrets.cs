@@ -52,6 +52,8 @@ public abstract class Turrets : MonoBehaviour
             Vector2 directionShoot = line.normalized;
             selectedAttackType?.Invoke(this, directionShoot);
 
+            print(selectedAttackType != null); //currently selected attack type is null for some reason
+
             shootTimer = 0; //reset timer  
 
 
@@ -72,7 +74,6 @@ public abstract class Turrets : MonoBehaviour
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-        //hi
     }
 
     protected void OnDestroy()
