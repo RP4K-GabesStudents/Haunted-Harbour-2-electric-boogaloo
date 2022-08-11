@@ -156,10 +156,10 @@ public abstract class Turrets : MonoBehaviour
         }
     }
 
-    private void ChooseBulletType()
+   protected virtual void ChooseBulletType()
     {
 
-    }
+    } 
 }
 
 
