@@ -6,6 +6,8 @@ using UnityEngine;
 public class TurretA : Turrets
 {
 
+    private float turretShootTimer;
+
     protected override void OnCollisionEnter2D(Collision2D col)
     {
         if (col.transform.position.y > transform.position.y)
@@ -20,5 +22,14 @@ public class TurretA : Turrets
         
         base.OnCollisionEnter2D(col);
     }
+
+    private void turnOff()
+    {
+        
+        
+    }
+    
+    
+    
  
 }
