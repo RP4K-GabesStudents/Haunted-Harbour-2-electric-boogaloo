@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
+
 public abstract class Turrets : MonoBehaviour
 {
     //Turret Behavior
     [SerializeField] public int health;
-    public bool isCloaked;
+    public bool isCloaked; //this doesn't determine if something is cloaked or not, it just tells the shoot function whether it is so we can not shoot from a cloaked turret
     public float distance;
+    SpriteRenderer sr;
 
     //Shooting Behavior
     [SerializeField] GameObject bullet;
@@ -23,7 +26,11 @@ public abstract class Turrets : MonoBehaviour
     protected delegate void TurretAttackTypeDel(Turrets turret, Vector2 direction);
     protected Coroutine currentRoutine;
 
+    //Audio
 
+    [SerializeField] protected AudioClip cloakSound;
+    [SerializeField] protected AudioClip uncloakSound;
+    [SerializeField] protected AudioClip destructionSound;
 
     //I hate Static Utilities I hate them so much
     [SerializeField] private TAttackType attackType;
@@ -118,7 +125,7 @@ public abstract class Turrets : MonoBehaviour
         }
     }
 
-  
+
     public enum TAttackType
     {
         Basic,
@@ -146,25 +153,31 @@ public abstract class Turrets : MonoBehaviour
 
     private void ChooseBulletType()
     {
-        bullet = bulletsList[(int)EBulletType.Red];
+        bullet = bulletsList[(int)EBulletType.Purple];
     }
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-        //play sound
+        GameManager.Instance.AudioManager.PlayOneShot(destructionSound);
     }
 
 
     protected void Cloak()
     {
-        //play a sound
+        isCloaked = true;
+
+        sr = GetComponent<SpriteRenderer>();
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 5));
+        GameManager.Instance.AudioManager.PlayOneShot(cloakSound);
     }
 
 
     protected void Uncloak()
     {
-        //play sound
+        isCloaked = false;
+
+        GameManager.Instance.AudioManager.PlayOneShot(uncloakSound);
     }
 
 }
