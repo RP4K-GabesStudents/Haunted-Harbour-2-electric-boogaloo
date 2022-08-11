@@ -1,0 +1,1722 @@
+fileFormatVersion: 2
+guid: 662643c23d31f314191d40086dbd5900
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4436484027892132774
+    second: ViktorTesla_0
+  - first:
+      213: 4641002727574621120
+    second: ViktorTesla_1
+  - first:
+      213: 3540337512238106519
+    second: ViktorTesla_2
+  - first:
+      213: -4073186862013319800
+    second: ViktorTesla_3
+  - first:
+      213: -1702929613140174522
+    second: ViktorTesla_4
+  - first:
+      213: 6444202837243389984
+    second: ViktorTesla_5
+  - first:
+      213: 4388266066182672545
+    second: ViktorTesla_6
+  - first:
+      213: 3406002125508318159
+    second: ViktorTesla_7
+  - first:
+      213: -6220875058781713940
+    second: ViktorTesla_8
+  - first:
+      213: -8129987992461692152
+    second: ViktorTesla_9
+  - first:
+      213: -8230366870522152492
+    second: ViktorTesla_10
+  - first:
+      213: 4671016963192676464
+    second: ViktorTesla_11
+  - first:
+      213: 2363693758923373422
+    second: ViktorTesla_12
+  - first:
+      213: 3685450279265126458
+    second: ViktorTesla_13
+  - first:
+      213: 1883302383846510912
+    second: ViktorTesla_14
+  - first:
+      213: 7315550344867433879
+    second: ViktorTesla_15
+  - first:
+      213: 2365812742700795693
+    second: ViktorTesla_16
+  - first:
+      213: -7668936830441663436
+    second: ViktorTesla_17
+  - first:
+      213: 3233829594296401146
+    second: ViktorTesla_18
+  - first:
+      213: -7856016272831542918
+    second: ViktorTesla_19
+  - first:
+      213: 3922456561282725530
+    second: ViktorTesla_20
+  - first:
+      213: 1969959340232382586
+    second: ViktorTesla_21
+  - first:
+      213: -4162898668637876672
+    second: ViktorTesla_22
+  - first:
+      213: 622536834305984122
+    second: ViktorTesla_23
+  - first:
+      213: -3534795159734083848
+    second: ViktorTesla_24
+  - first:
+      213: -8579844078700287751
+    second: ViktorTesla_25
+  - first:
+      213: 2994037368937300596
+    second: ViktorTesla_26
+  - first:
+      213: 151891518429510976
+    second: ViktorTesla_27
+  - first:
+      213: -4579648702185530969
+    second: ViktorTesla_28
+  - first:
+      213: -8288157489490514162
+    second: ViktorTesla_29
+  - first:
+      213: -6390089682288329482
+    second: ViktorTesla_30
+  - first:
+      213: 2485434641075734867
+    second: ViktorTesla_31
+  - first:
+      213: 3099490585521095219
+    second: ViktorTesla_32
+  - first:
+      213: 889707285355408560
+    second: ViktorTesla_33
+  - first:
+      213: 6989860385237280464
+    second: ViktorTesla_34
+  - first:
+      213: -7927709948332730242
+    second: ViktorTesla_35
+  - first:
+      213: 2593914814005241510
+    second: ViktorTesla_36
+  - first:
+      213: -8686510647433661014
+    second: ViktorTesla_37
+  - first:
+      213: 5545028663262603896
+    second: ViktorTesla_38
+  - first:
+      213: -6150775082284953694
+    second: ViktorTesla_39
+  - first:
+      213: -6958014098221978037
+    second: ViktorTesla_40
+  - first:
+      213: -7533801197543619131
+    second: ViktorTesla_41
+  - first:
+      213: 2375744097447398956
+    second: ViktorTesla_42
+  - first:
+      213: -7702376447550048000
+    second: ViktorTesla_43
+  - first:
+      213: 3428557479240648823
+    second: ViktorTesla_44
+  - first:
+      213: 2587577214255482215
+    second: ViktorTesla_45
+  - first:
+      213: -6434789791255916111
+    second: ViktorTesla_46
+  - first:
+      213: -2950021360897757657
+    second: ViktorTesla_47
+  - first:
+      213: -3659867523276596967
+    second: ViktorTesla_48
+  - first:
+      213: -8368308695622020498
+    second: ViktorTesla_49
+  - first:
+      213: -7171986653631509401
+    second: ViktorTesla_50
+  - first:
+      213: 1002257674200991296
+    second: ViktorTesla_51
+  - first:
+      213: -412495637940348134
+    second: ViktorTesla_52
+  - first:
+      213: -7163002741933395215
+    second: ViktorTesla_53
+  - first:
+      213: -4691684882437270678
+    second: ViktorTesla_54
+  - first:
+      213: -3545239239152671647
+    second: ViktorTesla_55
+  - first:
+      213: 1749173761377801987
+    second: ViktorTesla_56
+  - first:
+      213: 4334775901564147262
+    second: ViktorTesla_57
+  - first:
+      213: -3136303138981818559
+    second: ViktorTesla_58
+  - first:
+      213: 4344534351108037209
+    second: ViktorTesla_59
+  - first:
+      213: -7286996821028748450
+    second: ViktorTesla_60
+  - first:
+      213: -1863086985178875299
+    second: ViktorTesla_61
+  - first:
+      213: 3641473663890816283
+    second: ViktorTesla_62
+  - first:
+      213: -6304163389080519098
+    second: ViktorTesla_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ViktorTesla_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 522
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a549bc938417e62c0800000000000000
+      internalID: -4436484027892132774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 522
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb44b24467286040800000000000000
+      internalID: 4641002727574621120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 522
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79741f9b53ec12130800000000000000
+      internalID: 3540337512238106519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 522
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88578e131222977c0800000000000000
+      internalID: -4073186862013319800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 522
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64959431a8afd58e0800000000000000
+      internalID: -1702929613140174522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 522
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028e47e66586e6950800000000000000
+      internalID: 6444202837243389984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 522
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a018b6bcb046ec30800000000000000
+      internalID: 4388266066182672545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 522
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3162b23ec844f20800000000000000
+      internalID: 3406002125508318159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 522
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce98a39f7130ba9a0800000000000000
+      internalID: -6220875058781713940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 478
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8033121defa7c2f80800000000000000
+      internalID: -8129987992461692152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 478
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9326700fcd7cd80800000000000000
+      internalID: -8230366870522152492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 478
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0706cee0e29c2d040800000000000000
+      internalID: 4671016963192676464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 478
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b7f6a43f68dc020800000000000000
+      internalID: 2363693758923373422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 478
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3846fca089552330800000000000000
+      internalID: 3685450279265126458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_14
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 478
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04151d93a85d22a10800000000000000
+      internalID: 1883302383846510912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 478
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d4f4a774e068560800000000000000
+      internalID: 7315550344867433879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_16
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 478
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2706c5a72e05d020800000000000000
+      internalID: 2365812742700795693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 478
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4345d90a596729590800000000000000
+      internalID: -7668936830441663436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 421
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcbe28e1eed0ec20800000000000000
+      internalID: 3233829594296401146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 421
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a790034a2d2d9f290800000000000000
+      internalID: -7856016272831542918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 421
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96382ed57d5f6630800000000000000
+      internalID: 3922456561282725530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 421
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7893882593b65b10800000000000000
+      internalID: 1969959340232382586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_22
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 424
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e84e387b96a36c0800000000000000
+      internalID: -4162898668637876672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 421
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a768764d3f1b3a800800000000000000
+      internalID: 622536834305984122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 363
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9746c782e1fec0800000000000000
+      internalID: -3534795159734083848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_25
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 363
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8a4d4b4454ee880800000000000000
+      internalID: -8579844078700287751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_26
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 363
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472c0cbbf15fc8920800000000000000
+      internalID: 2994037368937300596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 363
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04db2600880ab1200800000000000000
+      internalID: 151891518429510976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_28
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 366
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a91726f4c1d170c0800000000000000
+      internalID: -4579648702185530969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_29
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 363
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fac640dac8afc80800000000000000
+      internalID: -8288157489490514162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 323
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcb0544a47d157a0800000000000000
+      internalID: -6390089682288329482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 282
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35905cd33a90e7220800000000000000
+      internalID: 2485434641075734867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 238
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33207a6044a930b20800000000000000
+      internalID: 3099490585521095219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 238
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcafa9ef00e85c00800000000000000
+      internalID: 889707285355408560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 238
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6a4ab8cf8f00160800000000000000
+      internalID: 6989860385237280464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 238
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e781c470ecd1bf190800000000000000
+      internalID: -7927709948332730242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_36
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 238
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6e76ab7cf6ff320800000000000000
+      internalID: 2593914814005241510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 238
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5711ad690537780800000000000000
+      internalID: -8686510647433661014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 238
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a602fb036e3fc40800000000000000
+      internalID: 5545028663262603896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_39
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 238
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc41f96ae04aaa0800000000000000
+      internalID: -6150775082284953694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_40
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 238
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ea155fa0b207f90800000000000000
+      internalID: -6958014098221978037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 194
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c500040abf827790800000000000000
+      internalID: -7533801197543619131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_42
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 194
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e459d5ba658f020800000000000000
+      internalID: 2375744097447398956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 194
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009b17d0e69ab1590800000000000000
+      internalID: -7702376447550048000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_44
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 194
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778c522bcdea49f20800000000000000
+      internalID: 3428557479240648823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_45
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 194
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c79c44cbe8e320800000000000000
+      internalID: 2587577214255482215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_46
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 194
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b191ef17c803b6a0800000000000000
+      internalID: -6434789791255916111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 194
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eefdfb33b6f07d0800000000000000
+      internalID: -2950021360897757657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_48
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 194
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9191c1ed0e9853dc0800000000000000
+      internalID: -3659867523276596967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_49
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 194
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6213aa149bcddb80800000000000000
+      internalID: -8368308695622020498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c8378232cf77c90800000000000000
+      internalID: -7171986653631509401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 137
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046c8246b0cb8ed00800000000000000
+      internalID: 1002257674200991296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 137
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bda2d1765864af0800000000000000
+      internalID: -412495637940348134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 137
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f239e915f6e79c90800000000000000
+      internalID: -7163002741933395215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_54
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 140
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6391400579c3eeb0800000000000000
+      internalID: -4691684882437270678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_55
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 139
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164678a02b7cccec0800000000000000
+      internalID: -3545239239152671647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 80
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3079b59b440564810800000000000000
+      internalID: 1749173761377801987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_57
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 80
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3697a147b7382c30800000000000000
+      internalID: 4334775901564147262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_58
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 80
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fcb0579ec9974d0800000000000000
+      internalID: -3136303138981818559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_59
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ad64859f2ea4c30800000000000000
+      internalID: 4344534351108037209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_60
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 83
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e534e2bdff26fda90800000000000000
+      internalID: -7286996821028748450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_61
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 80
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a72ce024cf426e0800000000000000
+      internalID: -1863086985178875299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 40
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df623010d198230800000000000000
+      internalID: 3641473663890816283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViktorTesla_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e35db6ccc1388a0800000000000000
+      internalID: -6304163389080519098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ViktorTesla_44: 3428557479240648823
+      ViktorTesla_31: 2485434641075734867
+      ViktorTesla_34: 6989860385237280464
+      ViktorTesla_7: 3406002125508318159
+      ViktorTesla_49: -8368308695622020498
+      ViktorTesla_25: -8579844078700287751
+      ViktorTesla_17: -7668936830441663436
+      ViktorTesla_20: 3922456561282725530
+      ViktorTesla_39: -6150775082284953694
+      ViktorTesla_22: -4162898668637876672
+      ViktorTesla_61: -1863086985178875299
+      ViktorTesla_13: 3685450279265126458
+      ViktorTesla_3: -4073186862013319800
+      ViktorTesla_47: -2950021360897757657
+      ViktorTesla_56: 1749173761377801987
+      ViktorTesla_62: 3641473663890816283
+      ViktorTesla_57: 4334775901564147262
+      ViktorTesla_46: -6434789791255916111
+      ViktorTesla_59: 4344534351108037209
+      ViktorTesla_19: -7856016272831542918
+      ViktorTesla_33: 889707285355408560
+      ViktorTesla_48: -3659867523276596967
+      ViktorTesla_41: -7533801197543619131
+      ViktorTesla_4: -1702929613140174522
+      ViktorTesla_50: -7171986653631509401
+      ViktorTesla_45: 2587577214255482215
+      ViktorTesla_5: 6444202837243389984
+      ViktorTesla_16: 2365812742700795693
+      ViktorTesla_63: -6304163389080519098
+      ViktorTesla_14: 1883302383846510912
+      ViktorTesla_9: -8129987992461692152
+      ViktorTesla_52: -412495637940348134
+      ViktorTesla_27: 151891518429510976
+      ViktorTesla_42: 2375744097447398956
+      ViktorTesla_26: 2994037368937300596
+      ViktorTesla_32: 3099490585521095219
+      ViktorTesla_51: 1002257674200991296
+      ViktorTesla_53: -7163002741933395215
+      ViktorTesla_0: -4436484027892132774
+      ViktorTesla_21: 1969959340232382586
+      ViktorTesla_2: 3540337512238106519
+      ViktorTesla_43: -7702376447550048000
+      ViktorTesla_24: -3534795159734083848
+      ViktorTesla_60: -7286996821028748450
+      ViktorTesla_30: -6390089682288329482
+      ViktorTesla_35: -7927709948332730242
+      ViktorTesla_28: -4579648702185530969
+      ViktorTesla_15: 7315550344867433879
+      ViktorTesla_23: 622536834305984122
+      ViktorTesla_54: -4691684882437270678
+      ViktorTesla_40: -6958014098221978037
+      ViktorTesla_36: 2593914814005241510
+      ViktorTesla_37: -8686510647433661014
+      ViktorTesla_29: -8288157489490514162
+      ViktorTesla_58: -3136303138981818559
+      ViktorTesla_11: 4671016963192676464
+      ViktorTesla_18: 3233829594296401146
+      ViktorTesla_38: 5545028663262603896
+      ViktorTesla_8: -6220875058781713940
+      ViktorTesla_10: -8230366870522152492
+      ViktorTesla_1: 4641002727574621120
+      ViktorTesla_55: -3545239239152671647
+      ViktorTesla_6: 4388266066182672545
+      ViktorTesla_12: 2363693758923373422
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,959 @@
+fileFormatVersion: 2
+guid: f6c62490c7ac85e4992cf36689a6feeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4099051622005776354
+    second: LighthouseKeeper_0
+  - first:
+      213: 5993498763282171241
+    second: LighthouseKeeper_1
+  - first:
+      213: 2716706908129029031
+    second: LighthouseKeeper_2
+  - first:
+      213: 2208625001369150771
+    second: LighthouseKeeper_3
+  - first:
+      213: 6402255913666272950
+    second: LighthouseKeeper_4
+  - first:
+      213: 7593057845991251844
+    second: LighthouseKeeper_5
+  - first:
+      213: -8407477061701271751
+    second: LighthouseKeeper_6
+  - first:
+      213: -8934247717735233080
+    second: LighthouseKeeper_7
+  - first:
+      213: 4115415546570490648
+    second: LighthouseKeeper_8
+  - first:
+      213: -5934736621386765115
+    second: LighthouseKeeper_9
+  - first:
+      213: -1029155035278377876
+    second: LighthouseKeeper_10
+  - first:
+      213: -4686850694918863586
+    second: LighthouseKeeper_11
+  - first:
+      213: -7559892892571200361
+    second: LighthouseKeeper_12
+  - first:
+      213: -3877842043867825497
+    second: LighthouseKeeper_13
+  - first:
+      213: -8614684926925341069
+    second: LighthouseKeeper_14
+  - first:
+      213: -2438197267808981664
+    second: LighthouseKeeper_15
+  - first:
+      213: 8581847314571813972
+    second: LighthouseKeeper_16
+  - first:
+      213: -3778294851826436825
+    second: LighthouseKeeper_17
+  - first:
+      213: 3731354475950769379
+    second: LighthouseKeeper_18
+  - first:
+      213: -3817678821426806664
+    second: LighthouseKeeper_19
+  - first:
+      213: 8107104743221364905
+    second: LighthouseKeeper_20
+  - first:
+      213: 1529729108529203603
+    second: LighthouseKeeper_21
+  - first:
+      213: -7310760713441929417
+    second: LighthouseKeeper_22
+  - first:
+      213: -4356975382687241675
+    second: LighthouseKeeper_23
+  - first:
+      213: -963654899792831067
+    second: LighthouseKeeper_24
+  - first:
+      213: -6074695618660471272
+    second: LighthouseKeeper_25
+  - first:
+      213: -4311970073160272586
+    second: LighthouseKeeper_26
+  - first:
+      213: -505668265548890245
+    second: LighthouseKeeper_27
+  - first:
+      213: 6861042715753542064
+    second: LighthouseKeeper_28
+  - first:
+      213: 3191917213536973896
+    second: LighthouseKeeper_29
+  - first:
+      213: -6047714433092721645
+    second: LighthouseKeeper_30
+  - first:
+      213: 1281702889140145450
+    second: LighthouseKeeper_31
+  - first:
+      213: -7752603833881672255
+    second: LighthouseKeeper_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LighthouseKeeper_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 195
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e106b5a744e3d17c0800000000000000
+      internalID: -4099051622005776354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 194
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9654d2bce5f2d2350800000000000000
+      internalID: 5993498763282171241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 194
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab61e90a8ea3b520800000000000000
+      internalID: 2716706908129029031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 195
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335a7a8acbc96ae10800000000000000
+      internalID: 2208625001369150771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 196
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bed83735d169d850800000000000000
+      internalID: 6402255913666272950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 200
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f1d4591e5ff5960800000000000000
+      internalID: 7593057845991251844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 198
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ffc083824a25b80800000000000000
+      internalID: -8407477061701271751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 199
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c90c01590d230480800000000000000
+      internalID: -8934247717735233080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 201
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813447c92a4ec1930800000000000000
+      internalID: 4115415546570490648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_9
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 201
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc6db68c7493ada0800000000000000
+      internalID: -5934736621386765115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_10
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 200
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c7d67b2f4b7b1f0800000000000000
+      internalID: -1029155035278377876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_11
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 200
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15811eff16f4feb0800000000000000
+      internalID: -4686850694918863586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 196
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7941b4ed77dd51790800000000000000
+      internalID: -7559892892571200361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_13
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 106
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aafe20f4332f2ac0800000000000000
+      internalID: -3877842043867825497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 107
+        width: 49
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ef3b693bd727880800000000000000
+      internalID: -8614684926925341069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 107
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06deae7c088c92ed0800000000000000
+      internalID: -2438197267808981664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 105
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45461bdf9a8d81770800000000000000
+      internalID: 8581847314571813972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_17
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 104
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725b23cb9dcc09bc0800000000000000
+      internalID: -3778294851826436825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_18
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 106
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e40c16502f68c330800000000000000
+      internalID: 3731354475950769379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 102
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870c25eb651e40bc0800000000000000
+      internalID: -3817678821426806664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_20
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 101
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a808988fc8328070800000000000000
+      internalID: 8107104743221364905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 100
+        width: 43
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3994574f480ba3510800000000000000
+      internalID: 1529729108529203603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 100
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737996d7dd5fa8a90800000000000000
+      internalID: -7310760713441929417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 101
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a2ec349f9e883c0800000000000000
+      internalID: -4356975382687241675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_24
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 99
+        width: 35
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad98cb69f860a2f0800000000000000
+      internalID: -963654899792831067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_25
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 103
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eee1b158852bba0800000000000000
+      internalID: -6074695618660471272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_26
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 145
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635ba23701ec824c0800000000000000
+      internalID: -4311970073160272586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_27
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 145
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f35c144618bf8f0800000000000000
+      internalID: -505668265548890245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_28
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 145
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b17545aff1573f50800000000000000
+      internalID: 6861042715753542064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 46
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84473515bc7fb4c20800000000000000
+      internalID: 3191917213536973896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_30
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 56
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3146188e3c3321ca0800000000000000
+      internalID: -6047714433092721645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_31
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 56
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d4ac6acf589c110800000000000000
+      internalID: 1281702889140145450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LighthouseKeeper_32
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 57
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5c62d53e7396490800000000000000
+      internalID: -7752603833881672255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LighthouseKeeper_4: 6402255913666272950
+      LighthouseKeeper_30: -6047714433092721645
+      LighthouseKeeper_25: -6074695618660471272
+      LighthouseKeeper_7: -8934247717735233080
+      LighthouseKeeper_2: 2716706908129029031
+      LighthouseKeeper_29: 3191917213536973896
+      LighthouseKeeper_9: -5934736621386765115
+      LighthouseKeeper_13: -3877842043867825497
+      LighthouseKeeper_10: -1029155035278377876
+      LighthouseKeeper_11: -4686850694918863586
+      LighthouseKeeper_27: -505668265548890245
+      LighthouseKeeper_18: 3731354475950769379
+      LighthouseKeeper_31: 1281702889140145450
+      LighthouseKeeper_19: -3817678821426806664
+      LighthouseKeeper_6: -8407477061701271751
+      LighthouseKeeper_8: 4115415546570490648
+      LighthouseKeeper_26: -4311970073160272586
+      LighthouseKeeper_15: -2438197267808981664
+      LighthouseKeeper_0: -4099051622005776354
+      LighthouseKeeper_3: 2208625001369150771
+      LighthouseKeeper_5: 7593057845991251844
+      LighthouseKeeper_14: -8614684926925341069
+      LighthouseKeeper_21: 1529729108529203603
+      LighthouseKeeper_22: -7310760713441929417
+      LighthouseKeeper_24: -963654899792831067
+      LighthouseKeeper_17: -3778294851826436825
+      LighthouseKeeper_20: 8107104743221364905
+      LighthouseKeeper_28: 6861042715753542064
+      LighthouseKeeper_16: 8581847314571813972
+      LighthouseKeeper_1: 5993498763282171241
+      LighthouseKeeper_12: -7559892892571200361
+      LighthouseKeeper_23: -4356975382687241675
+      LighthouseKeeper_32: -7752603833881672255
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

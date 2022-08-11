@@ -1,0 +1,1234 @@
+fileFormatVersion: 2
+guid: b8c2f7258f686c242a6315e24099b2c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8894744121804739739
+    second: SkullCrab_0
+  - first:
+      213: -4752918407907462274
+    second: SkullCrab_1
+  - first:
+      213: 983517206934292339
+    second: SkullCrab_2
+  - first:
+      213: -837672699373395376
+    second: SkullCrab_3
+  - first:
+      213: 4734571463847168526
+    second: SkullCrab_4
+  - first:
+      213: 6085245513483497400
+    second: SkullCrab_5
+  - first:
+      213: -43530840871219394
+    second: SkullCrab_6
+  - first:
+      213: -9193717773485833092
+    second: SkullCrab_7
+  - first:
+      213: -4474879881565503089
+    second: SkullCrab_8
+  - first:
+      213: -4172772159015936071
+    second: SkullCrab_9
+  - first:
+      213: 7292949191686612876
+    second: SkullCrab_10
+  - first:
+      213: 1375626327707386871
+    second: SkullCrab_11
+  - first:
+      213: 9111025725583242689
+    second: SkullCrab_12
+  - first:
+      213: 4657529478688601717
+    second: SkullCrab_13
+  - first:
+      213: 1598767412342329838
+    second: SkullCrab_14
+  - first:
+      213: -7847201943606966558
+    second: SkullCrab_15
+  - first:
+      213: -2334634831712337890
+    second: SkullCrab_16
+  - first:
+      213: -295205129260828340
+    second: SkullCrab_17
+  - first:
+      213: 3168319117996164795
+    second: SkullCrab_18
+  - first:
+      213: -693360723656346492
+    second: SkullCrab_19
+  - first:
+      213: 2037986486616541917
+    second: SkullCrab_20
+  - first:
+      213: -4836336009112485366
+    second: SkullCrab_21
+  - first:
+      213: 4412594465891219473
+    second: SkullCrab_22
+  - first:
+      213: 2579797652656144430
+    second: SkullCrab_23
+  - first:
+      213: -8633432754093303377
+    second: SkullCrab_24
+  - first:
+      213: -7833208013735068176
+    second: SkullCrab_25
+  - first:
+      213: -6323302931259361996
+    second: SkullCrab_26
+  - first:
+      213: -1839931665738858859
+    second: SkullCrab_27
+  - first:
+      213: 8707826498437183924
+    second: SkullCrab_28
+  - first:
+      213: 4318519692158967283
+    second: SkullCrab_29
+  - first:
+      213: -6737032569310062935
+    second: SkullCrab_30
+  - first:
+      213: -3319136100254586693
+    second: SkullCrab_31
+  - first:
+      213: -3399659075385149562
+    second: SkullCrab_32
+  - first:
+      213: 1435398427738461073
+    second: SkullCrab_33
+  - first:
+      213: 2987418397749983821
+    second: SkullCrab_34
+  - first:
+      213: -5026530211794155622
+    second: SkullCrab_35
+  - first:
+      213: 8108704432358064436
+    second: SkullCrab_36
+  - first:
+      213: -1124808452293694295
+    second: SkullCrab_37
+  - first:
+      213: -408434337186788471
+    second: SkullCrab_38
+  - first:
+      213: -5290503630885605718
+    second: SkullCrab_39
+  - first:
+      213: 2729080098824572135
+    second: SkullCrab_40
+  - first:
+      213: -2974927921102175688
+    second: SkullCrab_41
+  - first:
+      213: 7188071181973296804
+    second: SkullCrab_42
+  - first:
+      213: 6821680031165162503
+    second: SkullCrab_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkullCrab_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 247
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ba5dbf8558f8480800000000000000
+      internalID: -8894744121804739739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 248
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73b24ad3ed3a0eb0800000000000000
+      internalID: -4752918407907462274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 247
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3778dc550b726ad00800000000000000
+      internalID: 983517206934292339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 247
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0526ecb3e1dff54f0800000000000000
+      internalID: -837672699373395376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 247
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0acf4a59a394b140800000000000000
+      internalID: 4734571463847168526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 248
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf2932bd82237450800000000000000
+      internalID: 6085245513483497400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 248
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fc81d4ee8556ff0800000000000000
+      internalID: -43530840871219394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 248
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c748e2a356a596080800000000000000
+      internalID: -9193717773485833092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 247
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810fb6e47806e1c0800000000000000
+      internalID: -4474879881565503089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 247
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf173564d55716c0800000000000000
+      internalID: -4172772159015936071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87e37f66a2c53560800000000000000
+      internalID: 7292949191686612876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 212
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f38cae4bd4371310800000000000000
+      internalID: 1375626327707386871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 212
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5b5d800add07e70800000000000000
+      internalID: 9111025725583242689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 213
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576f42c526ed2a040800000000000000
+      internalID: 4657529478688601717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 213
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1922bad76ff2610800000000000000
+      internalID: 1598767412342329838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 213
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e64d869863291390800000000000000
+      internalID: -7847201943606966558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 212
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10488f6df5b99fd0800000000000000
+      internalID: -2334634831712337890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 212
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49f88ebf7837ebf0800000000000000
+      internalID: -295205129260828340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 214
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb68d3b837128fb20800000000000000
+      internalID: 3168319117996164795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 212
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484714d6810b066f0800000000000000
+      internalID: -693360723656346492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 177
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda43df69e1684c10800000000000000
+      internalID: 2037986486616541917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 143
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a028b621602e1ecb0800000000000000
+      internalID: -4836336009112485366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 104
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118fc4da94fac3d30800000000000000
+      internalID: 4412594465891219473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 106
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20c4f6fb484dc320800000000000000
+      internalID: 2579797652656144430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 105
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9db0ce6a2ef2880800000000000000
+      internalID: -8633432754093303377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 105
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdf39940dada4390800000000000000
+      internalID: -7833208013735068176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 105
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435791f7c7d1f38a0800000000000000
+      internalID: -6323302931259361996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_27
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 105
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e74acf5ef3776e0800000000000000
+      internalID: -1839931665738858859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 105
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9f415701a68d870800000000000000
+      internalID: 8707826498437183924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 105
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd1aae87c67eeb30800000000000000
+      internalID: 4318519692158967283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_30
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 105
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6590292904182a0800000000000000
+      internalID: -6737032569310062935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_31
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 104
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb866276d4f00f1d0800000000000000
+      internalID: -3319136100254586693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6873c36451cf1d0d0800000000000000
+      internalID: -3399659075385149562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_33
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 70
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1935184d34f8be310800000000000000
+      internalID: 1435398427738461073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 70
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aba596431757920800000000000000
+      internalID: 2987418397749983821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 70
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a978d31776d2e3ab0800000000000000
+      internalID: -5026530211794155622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 70
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431865f28b7e78070800000000000000
+      internalID: 8108704432358064436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 70
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac6da01ca0e360f0800000000000000
+      internalID: -1124808452293694295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 70
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc8e16223f45af0800000000000000
+      internalID: -408434337186788471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 70
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae262e5afa5496b0800000000000000
+      internalID: -5290503630885605718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_40
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 71
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecc60ef3e3afd520800000000000000
+      internalID: 2729080098824572135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 69
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832405e41dee6b6d0800000000000000
+      internalID: -2974927921102175688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 36
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a69dbde7a821c360800000000000000
+      internalID: 7188071181973296804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullCrab_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704a9f478d97bae50800000000000000
+      internalID: 6821680031165162503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SkullCrab_14: 1598767412342329838
+      SkullCrab_5: 6085245513483497400
+      SkullCrab_29: 4318519692158967283
+      SkullCrab_16: -2334634831712337890
+      SkullCrab_31: -3319136100254586693
+      SkullCrab_17: -295205129260828340
+      SkullCrab_21: -4836336009112485366
+      SkullCrab_20: 2037986486616541917
+      SkullCrab_18: 3168319117996164795
+      SkullCrab_33: 1435398427738461073
+      SkullCrab_41: -2974927921102175688
+      SkullCrab_24: -8633432754093303377
+      SkullCrab_23: 2579797652656144430
+      SkullCrab_40: 2729080098824572135
+      SkullCrab_10: 7292949191686612876
+      SkullCrab_32: -3399659075385149562
+      SkullCrab_43: 6821680031165162503
+      SkullCrab_0: -8894744121804739739
+      SkullCrab_2: 983517206934292339
+      SkullCrab_28: 8707826498437183924
+      SkullCrab_39: -5290503630885605718
+      SkullCrab_3: -837672699373395376
+      SkullCrab_27: -1839931665738858859
+      SkullCrab_19: -693360723656346492
+      SkullCrab_11: 1375626327707386871
+      SkullCrab_6: -43530840871219394
+      SkullCrab_8: -4474879881565503089
+      SkullCrab_13: 4657529478688601717
+      SkullCrab_9: -4172772159015936071
+      SkullCrab_7: -9193717773485833092
+      SkullCrab_30: -6737032569310062935
+      SkullCrab_25: -7833208013735068176
+      SkullCrab_34: 2987418397749983821
+      SkullCrab_42: 7188071181973296804
+      SkullCrab_35: -5026530211794155622
+      SkullCrab_12: 9111025725583242689
+      SkullCrab_22: 4412594465891219473
+      SkullCrab_1: -4752918407907462274
+      SkullCrab_26: -6323302931259361996
+      SkullCrab_36: 8108704432358064436
+      SkullCrab_4: 4734571463847168526
+      SkullCrab_15: -7847201943606966558
+      SkullCrab_37: -1124808452293694295
+      SkullCrab_38: -408434337186788471
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,718 @@
+fileFormatVersion: 2
+guid: 3397716b34ab04046bb901d89a14442b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6943628210209363954
+    second: SeaHag_0
+  - first:
+      213: 6802372421234946412
+    second: SeaHag_1
+  - first:
+      213: 2650413220524532352
+    second: SeaHag_2
+  - first:
+      213: -6313303790285526971
+    second: SeaHag_3
+  - first:
+      213: 813857640138085100
+    second: SeaHag_4
+  - first:
+      213: 7902635362629052432
+    second: SeaHag_5
+  - first:
+      213: -1482666488731843773
+    second: SeaHag_6
+  - first:
+      213: -5320218951111206734
+    second: SeaHag_7
+  - first:
+      213: 8678685544738731238
+    second: SeaHag_8
+  - first:
+      213: 7729977368973463521
+    second: SeaHag_9
+  - first:
+      213: 7730830007373049111
+    second: SeaHag_10
+  - first:
+      213: 3048452416066767723
+    second: SeaHag_11
+  - first:
+      213: 3487631825214607108
+    second: SeaHag_12
+  - first:
+      213: 5117427059484338034
+    second: SeaHag_13
+  - first:
+      213: 837100058593158724
+    second: SeaHag_14
+  - first:
+      213: -2890066976582608197
+    second: SeaHag_15
+  - first:
+      213: 9137650081989140907
+    second: SeaHag_16
+  - first:
+      213: -8090783059879443459
+    second: SeaHag_17
+  - first:
+      213: -3973793630855414610
+    second: SeaHag_18
+  - first:
+      213: -3202693221348142542
+    second: SeaHag_19
+  - first:
+      213: 1095695413317212380
+    second: SeaHag_20
+  - first:
+      213: 8222760561014845920
+    second: SeaHag_21
+  - first:
+      213: -1032213835120552400
+    second: SeaHag_22
+  - first:
+      213: -1444487418275463784
+    second: SeaHag_23
+  - first:
+      213: 6551999551246734620
+    second: SeaHag_24
+  - first:
+      213: -3222276956902549240
+    second: SeaHag_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeaHag_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08e6168ee643af90800000000000000
+      internalID: -6943628210209363954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 160
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c617f953da1e66e50800000000000000
+      internalID: 6802372421234946412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 160
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0822d5518c828c420800000000000000
+      internalID: 2650413220524532352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 160
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54867ece6a3a268a0800000000000000
+      internalID: -6313303790285526971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce21b2236376b4b00800000000000000
+      internalID: 813857640138085100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 119
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018e1fa0efccbad60800000000000000
+      internalID: 7902635362629052432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 119
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34343ca1fa28c6be0800000000000000
+      internalID: -1482666488731843773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 119
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b817bb3d09ca26b0800000000000000
+      internalID: -5320218951111206734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 79
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e438737582e07870800000000000000
+      internalID: 8678685544738731238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 79
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc87f3675664b60800000000000000
+      internalID: 7729977368973463521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 79
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71da6689eec694b60800000000000000
+      internalID: 7730830007373049111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 79
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b475e22574e4a20800000000000000
+      internalID: 3048452416066767723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 39
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f8341baae866030800000000000000
+      internalID: 3487631825214607108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 39
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277298c1cc0c40740800000000000000
+      internalID: 5117427059484338034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_14
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 39
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44667e1711afd9b00800000000000000
+      internalID: 837100058593158724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 39
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbad4b3a56b64e7d0800000000000000
+      internalID: -2890066976582608197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba128c216547fce70800000000000000
+      internalID: 9137650081989140907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df343218ca3c7bf80800000000000000
+      internalID: -8090783059879443459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 4
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac372e2fbf3ad8c0800000000000000
+      internalID: -3973793630855414610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 6
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2321ef8db7fbd83d0800000000000000
+      internalID: -3202693221348142542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 15
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81cc45c21b43f00800000000000000
+      internalID: 1095695413317212380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 40
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1b1680a2d1d1270800000000000000
+      internalID: 8222760561014845920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeaHag_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d7b27a85624fbe0800000000000000
+      internalID: -1444487418275463784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SeaHag_18: -3973793630855414610
+      SeaHag_3: -6313303790285526971
+      SeaHag_9: 7729977368973463521
+      SeaHag_12: 3487631825214607108
+      SeaHag_17: -8090783059879443459
+      SeaHag_11: 3048452416066767723
+      SeaHag_0: -6943628210209363954
+      SeaHag_10: 7730830007373049111
+      SeaHag_19: -3202693221348142542
+      SeaHag_16: 9137650081989140907
+      SeaHag_13: 5117427059484338034
+      SeaHag_4: 813857640138085100
+      SeaHag_15: -2890066976582608197
+      SeaHag_2: 2650413220524532352
+      SeaHag_8: 8678685544738731238
+      SeaHag_7: -5320218951111206734
+      SeaHag_23: -1444487418275463784
+      SeaHag_6: -1482666488731843773
+      SeaHag_5: 7902635362629052432
+      SeaHag_20: 1095695413317212380
+      SeaHag_21: 8222760561014845920
+      SeaHag_1: 6802372421234946412
+      SeaHag_14: 837100058593158724
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: b61543c063a6ed349887f1fd688b6f60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6751400254543797198
+    second: HungrySailor_0
+  - first:
+      213: -7724274094869402474
+    second: HungrySailor_1
+  - first:
+      213: 1737873890905422788
+    second: HungrySailor_2
+  - first:
+      213: 985851906888121270
+    second: HungrySailor_3
+  - first:
+      213: -3576303730020615339
+    second: HungrySailor_4
+  - first:
+      213: -1455620185242507835
+    second: HungrySailor_5
+  - first:
+      213: 3932175408029238056
+    second: HungrySailor_6
+  - first:
+      213: -4048445159477893678
+    second: HungrySailor_7
+  - first:
+      213: -1914398981917949137
+    second: HungrySailor_8
+  - first:
+      213: -1381274770795381675
+    second: HungrySailor_9
+  - first:
+      213: -2477112703169353742
+    second: HungrySailor_10
+  - first:
+      213: -5066055595352290910
+    second: HungrySailor_11
+  - first:
+      213: 6366459242027358502
+    second: HungrySailor_12
+  - first:
+      213: -4142624733143423398
+    second: HungrySailor_13
+  - first:
+      213: -9056127888229369245
+    second: HungrySailor_14
+  - first:
+      213: -6692907536330315325
+    second: HungrySailor_15
+  - first:
+      213: -4058306132959117893
+    second: HungrySailor_16
+  - first:
+      213: -3287204755855894478
+    second: HungrySailor_17
+  - first:
+      213: -4345638527568880181
+    second: HungrySailor_18
+  - first:
+      213: 7307970936352373477
+    second: HungrySailor_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HungrySailor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2346f6b2d353e42a0800000000000000
+      internalID: -6751400254543797198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 243
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cae8bb2adddc490800000000000000
+      internalID: -7724274094869402474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 242
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbf7db981b2e1810800000000000000
+      internalID: 1737873890905422788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 242
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb353706137ead00800000000000000
+      internalID: 985851906888121270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 242
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b7733a4ba6e5ec0800000000000000
+      internalID: -3576303730020615339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 242
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c56bba57299ccbe0800000000000000
+      internalID: -1455620185242507835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 242
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8230c1633b4e19630800000000000000
+      internalID: 3932175408029238056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_7
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 242
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5aba8b39801d7c0800000000000000
+      internalID: -4048445159477893678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_8
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 242
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f234964d440be65e0800000000000000
+      internalID: -1914398981917949137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 55
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c388d0ae9b4dce0800000000000000
+      internalID: -1381274770795381675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 148
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7abfaee178f9dd0800000000000000
+      internalID: -2477112703169353742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 148
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a985a2f641c1b9b0800000000000000
+      internalID: -5066055595352290910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 148
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6291b0e13f43a5850800000000000000
+      internalID: 6366459242027358502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 148
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a562d37f0c07286c0800000000000000
+      internalID: -4142624733143423398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_14
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 148
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7495caab225280800000000000000
+      internalID: -9056127888229369245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 148
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c92f766e040e13a0800000000000000
+      internalID: -6692907536330315325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 149
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdbe2be2100ea7c0800000000000000
+      internalID: -4058306132959117893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_17
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 149
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381c3fd0b08162d0800000000000000
+      internalID: -3287204755855894478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd510a88c031b3c0800000000000000
+      internalID: -4345638527568880181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HungrySailor_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 71
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea792ae8d02b6560800000000000000
+      internalID: 7307970936352373477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HungrySailor_10: -2477112703169353742
+      HungrySailor_4: -3576303730020615339
+      HungrySailor_13: -4142624733143423398
+      HungrySailor_3: 985851906888121270
+      HungrySailor_0: -6751400254543797198
+      HungrySailor_2: 1737873890905422788
+      HungrySailor_11: -5066055595352290910
+      HungrySailor_9: -1381274770795381675
+      HungrySailor_16: -4058306132959117893
+      HungrySailor_18: -4345638527568880181
+      HungrySailor_19: 7307970936352373477
+      HungrySailor_1: -7724274094869402474
+      HungrySailor_14: -9056127888229369245
+      HungrySailor_12: 6366459242027358502
+      HungrySailor_5: -1455620185242507835
+      HungrySailor_7: -4048445159477893678
+      HungrySailor_17: -3287204755855894478
+      HungrySailor_15: -6692907536330315325
+      HungrySailor_6: 3932175408029238056
+      HungrySailor_8: -1914398981917949137
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
