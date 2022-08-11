@@ -98,7 +98,6 @@ public class Projectiles : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        print("hello");
         if (col.gameObject.TryGetComponent(out Character character))
         {
             character.TakeDamage(damage, Vector3.zero);
