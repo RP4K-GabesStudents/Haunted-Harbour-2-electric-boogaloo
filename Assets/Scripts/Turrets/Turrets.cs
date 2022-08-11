@@ -112,15 +112,22 @@ public abstract class Turrets : MonoBehaviour
         for (int i = 0; i < turret.shotgunBulletAllowance; i++)
         {
             Vector2 newVec = direction;
-            if (i > 1)
+
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+            if (i <= 2)
             {
-                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-                angle += Random.Range(-turret.shotgunSpread, turret.shotgunSpread);
-
-                newVec.x = Mathf.Cos(angle * Mathf.Deg2Rad);
-                newVec.y = Mathf.Sin(angle * Mathf.Deg2Rad);
+                angle += turret.shotgunSpread * i;
             }
+
+            if (i > 2)
+            {
+                angle += turret.shotgunSpread; //because otherwise the middle spread is 20 and it looks off
+                angle -= turret.shotgunSpread * i;
+            }
+
+            newVec.x = Mathf.Cos(angle * Mathf.Deg2Rad);
+            newVec.y = Mathf.Sin(angle * Mathf.Deg2Rad);
             turret.startShoot(newVec);   //shoot
         }
     }

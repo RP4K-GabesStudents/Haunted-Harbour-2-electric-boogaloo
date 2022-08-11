@@ -384,6 +384,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TurretTest
       objectReference: {fileID: 0}
+    - target: {fileID: 4094187464357764309, guid: c41d2956681f0214e9b6b60133671def, type: 3}
+      propertyPath: distance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094187464357764309, guid: c41d2956681f0214e9b6b60133671def, type: 3}
+      propertyPath: attackType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4094187464357764310, guid: c41d2956681f0214e9b6b60133671def, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -706,7 +714,7 @@ MonoBehaviour:
   isShooting: 0
   isShootingCircle: 0
   movementVector: {x: 0, y: 0}
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: a1ed850690a187d41bc13fd01a0d65e6, type: 3}
   distance: 10
   numJumps: 1
   endJumpTime: 0.5
@@ -865,7 +873,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.1890697, y: 1}
+    m_SensorSize: {x: 1.9525516, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
