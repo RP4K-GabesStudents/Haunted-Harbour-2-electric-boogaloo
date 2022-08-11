@@ -30,14 +30,16 @@ public abstract class Turrets : MonoBehaviour
 
     private TurretAttackTypeDel selectedAttackType;
 
+    protected virtual void Awake()
+    {
+        ChooseAttackType();
+        ChooseBulletType();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         targetObject = GameManager.Instance.Player.transform;
-
-        ChooseAttackType();
-
-        //bulletsList = new 
     }
 
     // fixed update, because we used time in shooting???
@@ -130,6 +132,8 @@ public abstract class Turrets : MonoBehaviour
 
     private void ChooseAttackType()
     {
+        print("ChooseAttackType is called");
+
         switch (attackType)
         {
             case TAttackType.Burst:
@@ -140,15 +144,15 @@ public abstract class Turrets : MonoBehaviour
                 break;
             case TAttackType.Basic:
                 selectedAttackType = Basic;
+                print(selectedAttackType != null);
                 break;
         }
     }
 
-    protected virtual void ChooseBulletType()
+    private void ChooseBulletType()
     {
-
+        bullet = bulletsList[(int)EBulletType.Red];
     }
-
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
