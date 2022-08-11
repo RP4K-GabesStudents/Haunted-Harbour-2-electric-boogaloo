@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class TurretB : Turrets
 {
-    // Start is called before the first frame update
-    void Start()
+    SpriteRenderer sr;
+    
+    protected void Awake()
+       
     {
-        
+    sr = GetComponent<SpriteRenderer>();
+
+
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 5));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
