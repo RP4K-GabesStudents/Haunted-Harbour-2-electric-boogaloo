@@ -5,7 +5,18 @@ using UnityEngine;
 
 public static class StaticUtilities
 {
-    public static IEnumerator ColorLerp(this SpriteRenderer sr, Color to, float duration)    {        Color start = sr.color;        float curTime = 0;        while (curTime <= duration)        {            curTime += Time.deltaTime;            sr.color = Color.Lerp(start, to, curTime / duration);            yield return null;        }        yield return null;    }
+    public static IEnumerator ColorLerp(this SpriteRenderer sr, Color to, float duration)
+    {
+        Color start = sr.color;
+        float curTime = 0;
+        while (curTime <= duration)
+        {
+            curTime += Time.deltaTime;
+            sr.color = Color.Lerp(start, to, curTime / duration);
+            yield return null;
+        }
+        yield return null;
+    }
 
 
 }
@@ -18,7 +29,8 @@ public static class BulletTypes
 public static class AttackTypes
 {
 
-    public static void Targeting(Enemy enemy)    {
+    public static void Targeting(Enemy enemy)
+    {
         //SOHCAHTOA. figure this out later
     }
 
@@ -33,12 +45,14 @@ public static class MovementTypes
         yield return new WaitForSeconds(duration);
         thisEnemy.currentRoutine = null;
     }
-    public static void Dumb(Enemy enemy)    {
+    public static void Dumb(Enemy enemy)
+    {
         if (enemy.currentRoutine == null)
             enemy.currentRoutine = enemy.StartCoroutine(Timer(enemy, enemy.timer));
     }
 
-    public static void TargetGhost(Enemy enemy)    {
+    public static void TargetGhost(Enemy enemy)
+    {
         Vector2 origin = enemy.transform.position;
         Vector3 directionVector = (enemy.targetObject.position - (Vector3)origin).normalized;
 
@@ -58,7 +72,8 @@ public static class MovementTypes
         //go through stuff, set collider to trigger, disable rigidbody simulation
     }
 
-    public static void TargetSmart(Enemy enemy)    {
+    public static void TargetSmart(Enemy enemy)
+    {
         //layermasks and raycast
         //enemy.target (later)
 
@@ -100,7 +115,8 @@ public static class MovementTypes
 
     
 
-    public static void Circle(Enemy enemy)    {
+    public static void Circle(Enemy enemy)
+    {
 
         //consider the elements of a circle - radius, angles, sohcahtoa
 
