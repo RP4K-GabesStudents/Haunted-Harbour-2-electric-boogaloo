@@ -26,6 +26,8 @@ public class Player : Character
         _controls.controls.CircleShoot.canceled += _ => isShootingCircle = !isShootingCircle;
 
         //_controls.controls.PauseGame.started += _ => GameManager.Instance.PauseGame
+
+        GameManager.Instance.UpdatePlayerHealth(health);
     }
 
     private void MovementInput(InputAction.CallbackContext ctx)
@@ -51,5 +53,11 @@ public class Player : Character
     protected override void Move()
     {
         base.Move();
+    }
+
+    public override void TakeDamage(int damage, Vector3 force)
+    {
+        base.TakeDamage(damage, force);
+        GameManager.Instance.UpdatePlayerHealth(health);
     }
 }

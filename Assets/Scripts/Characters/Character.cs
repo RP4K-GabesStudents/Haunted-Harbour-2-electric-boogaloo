@@ -9,9 +9,10 @@ using static BulletTypes;
 
 public class Character : MonoBehaviour
 {
-    //have health
     //SerializedField means access in unity
     [SerializeField] protected int health; //can be accessed only by parent and child
+    public int maxHealth;
+
     [SerializeField] protected int jumpForce;
     [SerializeField] public float moveSpeed;
     [SerializeField] protected float velocityLimit;
@@ -68,6 +69,8 @@ public class Character : MonoBehaviour
         myRB = GetComponent<Rigidbody2D>(); //When character awake set RB
         animator = GetComponent<Animator>();
         c = Camera.main;
+
+        maxHealth = health; //set max health to be starting health
     }
 
 
@@ -137,7 +140,7 @@ public class Character : MonoBehaviour
     }
 
 
-    public void TakeDamage(int damage, Vector3 force)
+    public virtual void TakeDamage(int damage, Vector3 force)
     {
         health -= damage;
         myRB.AddForce(-force * damage, ForceMode2D.Impulse); //impulse so that it doesnt accelerate (instant force)
