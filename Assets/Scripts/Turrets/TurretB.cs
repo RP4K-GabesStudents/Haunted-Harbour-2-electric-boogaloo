@@ -14,7 +14,7 @@ public class TurretB : Turrets
 
     protected override void FixedUpdate()
     {
-
+        base.FixedUpdate();
     }
 
     private void manageStealth()

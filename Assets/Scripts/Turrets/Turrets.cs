@@ -92,6 +92,7 @@ public abstract class Turrets : MonoBehaviour
 
     public virtual void Shoot()
     {
+        isShooting = false;
         if (!isCloaked)
         {
             //is this function even necessary
@@ -103,6 +104,7 @@ public abstract class Turrets : MonoBehaviour
                 //select direction and shoot there using the selected attack type
                 Vector2 directionShoot = line.normalized;
                 selectedAttackType?.Invoke(this, directionShoot);
+                isShooting = true;
 
                 //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
                 //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
