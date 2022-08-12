@@ -35,13 +35,14 @@ public abstract class Turrets : MonoBehaviour
 
     //I hate Static Utilities I hate them so much
     [SerializeField] private TAttackType attackType;
+    public EBulletType bulletType { get; set; } //stole this from stackoverflow dont ask me about it
 
     protected TurretAttackTypeDel selectedAttackType;
 
     protected virtual void Awake()
     {
         ChooseAttackType();
-        ChooseBulletType();
+        ChooseBulletType(EBulletType.Red);
     }
 
     // Start is called before the first frame update
@@ -69,7 +70,10 @@ public abstract class Turrets : MonoBehaviour
                 //select direction and shoot there using the selected attack type
                 Vector2 directionShoot = line.normalized;
                 selectedAttackType?.Invoke(this, directionShoot);
-                GameManager.Instance.AudioManager.PlayOneShot(fireSound);
+
+                //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
+                //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
+                //So now SFX are handled in the respective attack types
 
                 shootTimer = 0; //reset timer  
             }
@@ -90,16 +94,18 @@ public abstract class Turrets : MonoBehaviour
     protected void Basic(Turrets t, Vector2 direction)
     {
         startShoot(direction);
+        GameManager.Instance.AudioManager.PlayOneShot(fireSound);
     }
 
     protected static IEnumerator Timer(Turrets t, Vector2 dir, float time)
     {
         for (int i = 0; i < 3; i++)
         {
+            yield return new WaitForSeconds(time);
             t.startShoot(dir);
+            GameManager.Instance.AudioManager.PlayOneShot(t.fireSound);
         }
 
-        yield return new WaitForSeconds(time);
         t.currentRoutine = null;
     }
 
@@ -121,10 +127,9 @@ public abstract class Turrets : MonoBehaviour
             {
                 angle += turret.shotgunSpread * i;
             }
-
-            if (i > 2)
+            else if (i > 2)
             {
-                angle += turret.shotgunSpread; //because otherwise the middle spread is 20 and it looks off
+                angle += turret.shotgunSpread * 2; //turret.shotgunSpread; //because otherwise the middle spread is 20 and it looks off
                 angle -= turret.shotgunSpread * i;
             }
 
@@ -132,6 +137,7 @@ public abstract class Turrets : MonoBehaviour
             newVec.y = Mathf.Sin(angle * Mathf.Deg2Rad);
             turret.startShoot(newVec);   //shoot
         }
+        GameManager.Instance.AudioManager.PlayOneShot(turret.fireSound);
     }
 
 
@@ -160,9 +166,13 @@ public abstract class Turrets : MonoBehaviour
         }
     }
 
-    private void ChooseBulletType()
+
+    //tried to pass it a parameter so that we can use it during random selection and whatnot
+    //probably a better way to do this but IT WORKS
+    private void ChooseBulletType(EBulletType eBulletType)
     {
-        bullet = bulletsList[(int)EBulletType.Purple];
+        bulletType = eBulletType;
+        bullet = bulletsList[(int)eBulletType];
     }
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
@@ -177,7 +187,7 @@ public abstract class Turrets : MonoBehaviour
         isCloaked = true;
 
         sr = GetComponent<SpriteRenderer>();
-        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 5));
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 2));
         GameManager.Instance.AudioManager.PlayOneShot(cloakSound);
     }
 
@@ -185,7 +195,7 @@ public abstract class Turrets : MonoBehaviour
     protected void Uncloak()
     {
         isCloaked = false;
-
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 255), 2));
         GameManager.Instance.AudioManager.PlayOneShot(uncloakSound);
     }
 

@@ -9,7 +9,7 @@ public class TurretB : Turrets
        
     {
         base.Awake();
-        //Cloak();
+        //Cloak(); //this turret autocloaks
     }
 
     
