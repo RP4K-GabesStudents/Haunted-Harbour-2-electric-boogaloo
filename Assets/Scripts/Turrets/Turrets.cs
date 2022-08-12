@@ -41,7 +41,7 @@ public abstract class Turrets : MonoBehaviour
     private float dir; //last direction of the player
     private static readonly int Movement = Animator.StringToHash("MovementX");
     private static readonly int IsAlive = Animator.StringToHash("IsAlive");
-    private static readonly int IsShooting = Animator.StringToHash("IsShooting");
+    private static readonly int IsShooting = Animator.StringToHash("Shoots");
 
     protected Animator animator;
 
@@ -82,13 +82,14 @@ public abstract class Turrets : MonoBehaviour
         animator.SetFloat(Direction, dir);
         animator.SetFloat(Movement, Mathf.Abs(movementVector.x));
         animator.SetBool(IsAlive, health > 0);
-        animator.SetBool(IsShooting, isShooting);
+//        animator.SetBool(IsShooting, isShooting);
+    
 
     }
 
     public virtual void Shoot()
     {
-        isShooting = false;
+        //isShooting = false;
         if (isCloaked) return;
 
         shootTimer += Time.deltaTime; //increment timer
@@ -99,8 +100,8 @@ public abstract class Turrets : MonoBehaviour
             //select direction and shoot there using the selected attack type
             Vector2 directionShoot = line.normalized;
             selectedAttackType?.Invoke(this, directionShoot);
-            isShooting = true;
-
+            //isShooting = true;
+            animator.SetTrigger(IsShooting);
             //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
             //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
             //So now SFX are handled in the respective attack types
