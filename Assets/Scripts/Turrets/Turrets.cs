@@ -79,8 +79,6 @@ public abstract class Turrets : MonoBehaviour
     {
 
         isShooting = false;
-
-
         shootTimer += Time.deltaTime; //increment timer
         Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
 
