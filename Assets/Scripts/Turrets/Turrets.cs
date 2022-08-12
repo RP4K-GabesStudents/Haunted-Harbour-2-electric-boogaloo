@@ -68,7 +68,7 @@ public abstract class Turrets : MonoBehaviour
     }
 
     // fixed update, because we used time in shooting???
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         Shoot();
         HandleAnimations();

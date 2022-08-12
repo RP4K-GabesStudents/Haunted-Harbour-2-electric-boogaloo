@@ -12,5 +12,14 @@ public class TurretB : Turrets
         //Cloak(); //this turret autocloaks
     }
 
+    protected override void FixedUpdate()
+    {
+
+    }
+
+    private void manageStealth()
+    {
+        //if within distance uncloak if outside cloak
+    }
 
 }
