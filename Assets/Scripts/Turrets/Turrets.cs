@@ -13,7 +13,6 @@ public abstract class Turrets : MonoBehaviour
     [SerializeField] protected bool isShooting;
 
     public float distance;
-    SpriteRenderer sr;
 
     //Shooting Behavior
     [SerializeField] GameObject bullet;
@@ -178,28 +177,6 @@ public abstract class Turrets : MonoBehaviour
         Shotgun
     }
 
-    /*
-    protected void ChooseAttackType()
-    {
-        switch (attackType)
-        {
-            case TAttackType.Burst:
-                isShooting = true;
-                selectedAttackType = Burst;
-                break;
-            case TAttackType.Shotgun:
-                isShooting = true;
-                selectedAttackType = Shotgun;
-                break;
-            case TAttackType.Basic:
-                selectedAttackType = Basic;
-                isShooting = true;
-                break;
-            default:
-                break;
-        }
-    }
-    */
 
     protected void ChooseAttackType(int i)
     {

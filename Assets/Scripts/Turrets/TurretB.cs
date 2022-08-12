@@ -7,6 +7,7 @@ public class TurretB : Turrets
 
     [SerializeField] private AudioClip cloak;
     private bool isCloaked;
+    SpriteRenderer sr;
 
     protected override void Awake()
 
@@ -28,4 +29,25 @@ public class TurretB : Turrets
 
     }
 
+    public override void Shoot()
+    {
+
+    }
+
+    protected void Cloak()
+    {
+        isCloaked = true;
+
+        sr = GetComponent<SpriteRenderer>();
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 2));
+        GameManager.Instance.AudioManager.PlayOneShot(cloakSound);
+    }
+
+
+    protected void Uncloak()
+    {
+        isCloaked = false;
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 255), 2));
+        GameManager.Instance.AudioManager.PlayOneShot(uncloakSound);
+    }
 }
