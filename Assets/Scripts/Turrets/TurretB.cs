@@ -24,21 +24,20 @@ public class TurretB : Turrets
         ChooseAttackType(2);
         ChooseBulletType(2);
         //Cloak(); //this turret autocloaks
-
     }
 
     protected override void FixedUpdate()
     {
-        base.FixedUpdate();
-        ManageStealth();
+        HandleAnimations();
+        //ManageStealth();
+        Shoot();
     }
 
+    /*
     private void ManageStealth()
     {
         Vector2 line = (targetObject.position - transform.position);
-
-        print(line);
-
+        print("called");
         if (line.magnitude < distance)
         {
             Uncloak();
@@ -47,7 +46,8 @@ public class TurretB : Turrets
         {
             Cloak();
         }
-    }
+    }*/
+    //doesnt work
 
     public override void Shoot()
     {
@@ -65,9 +65,8 @@ public class TurretB : Turrets
     protected void Cloak()
     {
         isCloaked = true;
-
         sr = GetComponent<SpriteRenderer>();
-        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 2));
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 0));
         GameManager.Instance.AudioManager.PlayOneShot(cloakSound);
     }
 
@@ -75,7 +74,7 @@ public class TurretB : Turrets
     protected void Uncloak()
     {
         isCloaked = false;
-        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 255), 2));
+        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 255), 0));
         GameManager.Instance.AudioManager.PlayOneShot(uncloakSound);
     }
 }
