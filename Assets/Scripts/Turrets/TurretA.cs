@@ -35,13 +35,13 @@ public class TurretA : Turrets
 
         if (turretShootTimer > 7) // if the turret has been shooting for 7 seconds
         {
-            //set daria's on boolean to be false
+            isOff = true;
             turretShootTimer = 0;
         }
         
-        if (turretShootTimer > 3 && /*daris variable*/ == false) // if the turret has been off for 3 seconds
+        if (turretShootTimer > 3 && isOff) // if the turret has been off for 3 seconds
         {
-            //set daria's on boolean to be true
+            isOff = false;
             turretShootTimer = 0;
         }
 
