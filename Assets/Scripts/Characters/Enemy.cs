@@ -44,7 +44,7 @@ public class Enemy : Character
     void Update()
     {
         selectedAttackType?.Invoke(this);
-        selectedMovementType?.Invoke(this);
+        selectedMovementType?.Invoke(this); 
     }
 
 

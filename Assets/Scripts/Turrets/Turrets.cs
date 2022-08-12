@@ -31,6 +31,7 @@ public abstract class Turrets : MonoBehaviour
     [SerializeField] protected AudioClip cloakSound;
     [SerializeField] protected AudioClip uncloakSound;
     [SerializeField] protected AudioClip destructionSound;
+    [SerializeField] protected AudioClip fireSound;
 
     //I hate Static Utilities I hate them so much
     [SerializeField] private TAttackType attackType;
@@ -68,6 +69,7 @@ public abstract class Turrets : MonoBehaviour
                 //select direction and shoot there using the selected attack type
                 Vector2 directionShoot = line.normalized;
                 selectedAttackType?.Invoke(this, directionShoot);
+                GameManager.Instance.AudioManager.PlayOneShot(fireSound);
 
                 shootTimer = 0; //reset timer  
             }
