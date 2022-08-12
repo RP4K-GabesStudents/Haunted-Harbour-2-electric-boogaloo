@@ -16,7 +16,7 @@ public class TurretA : Turrets
     protected override void Awake()
     {
         base.Awake();
-        
+
         int attack = UnityEngine.Random.Range(0, 3);
         int bullet = UnityEngine.Random.Range(0, 4);
 
@@ -26,7 +26,15 @@ public class TurretA : Turrets
         myRB = GetComponent<Rigidbody2D>();
 
     }
-    
+
+
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+        turnOff();
+        Shoot();
+    }
+
     protected override void OnCollisionEnter2D(Collision2D col)
     {
         if (col.transform.position.y > transform.position.y)
@@ -42,12 +50,6 @@ public class TurretA : Turrets
         base.OnCollisionEnter2D(col);
     }
 
-    private void Update()
-    {
-        turnOff();
-        Shoot();
-    }
-
     private void turnOff()
     {
         turretShootTimer += Time.deltaTime;
@@ -57,7 +59,7 @@ public class TurretA : Turrets
             isOff = true;
             turretShootTimer = 0;
         }
-        
+
         if (turretShootTimer > 3 && isOff) // if the turret has been off for 3 seconds
         {
             isOff = false;
@@ -72,13 +74,10 @@ public class TurretA : Turrets
         int bullet = UnityEngine.Random.Range(0, 4);
 
         ChooseAttackType(attack);
-        ChooseBulletType(bullet); 
+        ChooseBulletType(bullet);
 
-        base.Shoot();
-        
+        if(!isOff) base.Shoot();
+
         myRB.AddForce(turretMoveSpeed * Time.deltaTime * new Vector2(dir, 0), ForceMode2D.Impulse);
     }
- 
-
-
 }

@@ -23,21 +23,19 @@ public class TurretB : Turrets
 
         ChooseAttackType(2);
         ChooseBulletType(2);
-        //Cloak(); //this turret autocloaks
+        Cloak(); //this turret autocloaks
     }
 
     protected override void FixedUpdate()
     {
         HandleAnimations();
-        //ManageStealth();
+        ManageStealth();
         Shoot();
     }
 
-    /*
     private void ManageStealth()
     {
         Vector2 line = (targetObject.position - transform.position);
-        print("called");
         if (line.magnitude < distance)
         {
             Uncloak();
@@ -46,12 +44,11 @@ public class TurretB : Turrets
         {
             Cloak();
         }
-    }*/
-    //doesnt work
+    }
 
     public override void Shoot()
     {
-        if (isCloaked) return;
+        if (isCloaked) { isShooting = false; return; }
         DoSick360();
         base.Shoot();
     }

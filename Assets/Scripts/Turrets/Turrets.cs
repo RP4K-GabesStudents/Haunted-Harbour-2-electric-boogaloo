@@ -19,7 +19,7 @@ public abstract class Turrets : MonoBehaviour
     Vector2 directionShoot;
     [SerializeField] protected GameObject[] bulletsList;
 
-     protected float shootTimer;
+    protected float shootTimer;
     [SerializeField] protected float burstShootDelay;
     [SerializeField] protected float shootDelay;
     [SerializeField] private float bulletSpeed;
@@ -39,7 +39,7 @@ public abstract class Turrets : MonoBehaviour
     protected float dir; //last direction of the player
     private static readonly int Movement = Animator.StringToHash("MovementX");
     private static readonly int IsAlive = Animator.StringToHash("IsAlive");
-    private static readonly int IsShooting = Animator.StringToHash("Shoots");
+    private static readonly int IsShooting = Animator.StringToHash("IsShooting");
 
     protected Animator animator;
 
@@ -48,6 +48,8 @@ public abstract class Turrets : MonoBehaviour
     protected virtual void Awake()
     {
         isOff = false;
+        //isShooting = false;
+        health = 10;
 
         ChooseAttackType(0);
         ChooseBulletType(0);
@@ -58,8 +60,10 @@ public abstract class Turrets : MonoBehaviour
     // fixed update, because we used time in shooting???
     protected virtual void FixedUpdate()
     {
-        Shoot();
         HandleAnimations();
+        if (health <= 0) Destroy(gameObject, 3);
+
+        Shoot();
         dir = (targetObject.position - transform.position).x;
     }
 
@@ -77,24 +81,24 @@ public abstract class Turrets : MonoBehaviour
 
     public virtual void Shoot()
     {
-
-        isShooting = false;
-        shootTimer += Time.deltaTime; //increment timer
-        Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
-
-        if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
+        if (health > 0)
         {
-            //select direction and shoot there using the selected attack type
-            directionShoot = line.normalized;
-            dir = directionShoot.x;
-            selectedAttackType?.Invoke(this, directionShoot);
-            //isShooting = true;
-            animator.SetTrigger(IsShooting);
-            //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
-            //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
-            //So now SFX are handled in the respective attack types
 
-            shootTimer = 0; //reset timer  
+            shootTimer += Time.deltaTime; //increment timer
+            Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
+
+            if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
+            {
+                //select direction and shoot there using the selected attack type
+                directionShoot = line.normalized;
+                dir = directionShoot.x;
+                selectedAttackType?.Invoke(this, directionShoot);
+
+                
+                animator.SetTrigger(IsShooting);
+
+                shootTimer = 0; //reset timer  
+            }
         }
 
     }
@@ -109,7 +113,7 @@ public abstract class Turrets : MonoBehaviour
     }
 
 
-    protected void Basic(Turrets t, Vector2 direction)
+    protected void Basic(Turrets turret, Vector2 direction)
     {
         startShoot(direction);
         GameManager.Instance.AudioManager.PlayOneShot(fireSound);
@@ -175,14 +179,11 @@ public abstract class Turrets : MonoBehaviour
         {
             case TAttackType.Basic:
                 selectedAttackType = Basic;
-                isShooting = true;
                 break;
             case TAttackType.Burst:
-                isShooting = true;
                 selectedAttackType = Burst;
                 break;
             case TAttackType.Shotgun:
-                isShooting = true;
                 selectedAttackType = Shotgun;
                 break;
             default:
@@ -202,13 +203,17 @@ public abstract class Turrets : MonoBehaviour
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject, 3);
+        if (collision.gameObject.TryGetComponent(out Player ply)) //Important for C#. Try get component, gives component only if it exists
+        {
+            health = 0;
+            GameManager.Instance.AudioManager.PlayOneShot(destructionSound);
+        }
     }
 
-    private void OnDestroy()
+    /*private void OnDestroy()
     {
-        GameManager.Instance.AudioManager.PlayOneShot(destructionSound);
-    }
+        
+    }*/
 }
 
 
