@@ -20,6 +20,9 @@ public class TurretB : Turrets
     {
         base.Awake();
         myRB = GetComponent<Rigidbody2D>();
+
+        ChooseAttackType(2);
+        ChooseBulletType(2);
         //Cloak(); //this turret autocloaks
 
     }
@@ -28,12 +31,13 @@ public class TurretB : Turrets
     {
         base.FixedUpdate();
         ManageStealth();
-        Shoot();
     }
 
     private void ManageStealth()
     {
         Vector2 line = (targetObject.position - transform.position);
+
+        print(line);
 
         if (line.magnitude < distance)
         {
