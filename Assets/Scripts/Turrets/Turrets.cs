@@ -9,16 +9,15 @@ public abstract class Turrets : MonoBehaviour
     //Turret Behavior
     [SerializeField] public int health;
     public bool isCloaked; //this doesn't determine if something is cloaked or not, it just tells the shoot function whether it is so we can not shoot from a cloaked turret
+    public bool isOff;
+    [SerializeField] protected bool isShooting;
+
     public float distance;
     SpriteRenderer sr;
 
     //Shooting Behavior
     [SerializeField] GameObject bullet;
     [SerializeField] public GameObject[] bulletsList;
-
-
-
-    [SerializeField] protected bool isShooting;
 
     [SerializeField] protected float shootTimer;
     [SerializeField] protected float burstShootDelay;
@@ -47,16 +46,12 @@ public abstract class Turrets : MonoBehaviour
 
     protected Animator animator;
 
-    //I hate Static Utilities I hate them so much
-    [SerializeField] private TAttackType attackType;
-    public EBulletType bulletType { get; set; } //stole this from stackoverflow dont ask me about it
-
     protected TurretAttackTypeDel selectedAttackType;
 
     protected virtual void Awake()
     {
-        ChooseAttackType();
-        ChooseBulletType(EBulletType.Red);
+        ChooseAttackType(3);
+        ChooseBulletType(1);
         animator = GetComponent<Animator>();
 
     }
@@ -93,27 +88,26 @@ public abstract class Turrets : MonoBehaviour
     public virtual void Shoot()
     {
         isShooting = false;
-        if (!isCloaked)
+        if (isCloaked) return;
+
+        shootTimer += Time.deltaTime; //increment timer
+        Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
+
+        if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
         {
-            //is this function even necessary
-            shootTimer += Time.deltaTime; //increment timer
-            Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
+            //select direction and shoot there using the selected attack type
+            Vector2 directionShoot = line.normalized;
+            selectedAttackType?.Invoke(this, directionShoot);
+            isShooting = true;
+            print("shoot called");
 
-            if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
-            {
-                //select direction and shoot there using the selected attack type
-                Vector2 directionShoot = line.normalized;
-                selectedAttackType?.Invoke(this, directionShoot);
-                isShooting = true;
+            //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
+            //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
+            //So now SFX are handled in the respective attack types
 
-                //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
-                //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
-                //So now SFX are handled in the respective attack types
-
-                shootTimer = 0; //reset timer  
-            }
-
+            shootTimer = 0; //reset timer  
         }
+
     }
 
     //WHAT THIS DOES IS MAKE A BULLET
@@ -164,7 +158,7 @@ public abstract class Turrets : MonoBehaviour
             }
             else if (i > 2)
             {
-                angle += turret.shotgunSpread * 2; //turret.shotgunSpread; //because otherwise the middle spread is 20 and it looks off
+                angle += turret.shotgunSpread * 2; //because otherwise the middle spread is 20 and it looks off
                 angle -= turret.shotgunSpread * i;
             }
 
@@ -183,6 +177,7 @@ public abstract class Turrets : MonoBehaviour
         Shotgun
     }
 
+    /*
     protected void ChooseAttackType()
     {
         switch (attackType)
@@ -203,40 +198,46 @@ public abstract class Turrets : MonoBehaviour
                 break;
         }
     }
+    */
+
+    protected void ChooseAttackType(int i)
+    {
+        TAttackType attackType = (TAttackType)i;
+
+        switch (attackType)
+        {
+            case TAttackType.Basic:
+                selectedAttackType = Basic;
+                isShooting = true;
+                break;
+            case TAttackType.Burst:
+                isShooting = true;
+                selectedAttackType = Burst;
+                break;
+            case TAttackType.Shotgun:
+                isShooting = true;
+                selectedAttackType = Shotgun;
+                break;
+            default:
+                break;
+        }
+    }
 
 
     //tried to pass it a parameter so that we can use it during random selection and whatnot
     //probably a better way to do this but IT WORKS
-    private void ChooseBulletType(EBulletType eBulletType)
+    private void ChooseBulletType(int i)
     {
-        bulletType = eBulletType;
+        EBulletType eBulletType = (EBulletType)i;
         bullet = bulletsList[(int)eBulletType];
     }
+
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
         GameManager.Instance.AudioManager.PlayOneShot(destructionSound);
     }
-
-
-    protected void Cloak()
-    {
-        isCloaked = true;
-
-        sr = GetComponent<SpriteRenderer>();
-        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 2));
-        GameManager.Instance.AudioManager.PlayOneShot(cloakSound);
-    }
-
-
-    protected void Uncloak()
-    {
-        isCloaked = false;
-        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 255), 2));
-        GameManager.Instance.AudioManager.PlayOneShot(uncloakSound);
-    }
-
 }
 
 
