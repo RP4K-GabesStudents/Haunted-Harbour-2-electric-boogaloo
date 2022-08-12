@@ -16,6 +16,10 @@ public abstract class Turrets : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] public GameObject[] bulletsList;
 
+
+
+    [SerializeField] protected bool isShooting;
+
     [SerializeField] protected float shootTimer;
     [SerializeField] protected float burstShootDelay;
     [SerializeField] protected float shootDelay;
@@ -33,6 +37,16 @@ public abstract class Turrets : MonoBehaviour
     [SerializeField] protected AudioClip destructionSound;
     [SerializeField] protected AudioClip fireSound;
 
+    [SerializeField] public Vector2 movementVector; //this
+
+    private static readonly int Direction = Animator.StringToHash("Direction");
+    private float dir; //last direction of the player
+    private static readonly int Movement = Animator.StringToHash("MovementX");
+    private static readonly int IsAlive = Animator.StringToHash("IsAlive");
+    private static readonly int IsShooting = Animator.StringToHash("IsShooting");
+
+    protected Animator animator;
+
     //I hate Static Utilities I hate them so much
     [SerializeField] private TAttackType attackType;
     public EBulletType bulletType { get; set; } //stole this from stackoverflow dont ask me about it
@@ -43,6 +57,8 @@ public abstract class Turrets : MonoBehaviour
     {
         ChooseAttackType();
         ChooseBulletType(EBulletType.Red);
+        animator = GetComponent<Animator>();
+
     }
 
     // Start is called before the first frame update
@@ -55,10 +71,27 @@ public abstract class Turrets : MonoBehaviour
     void FixedUpdate()
     {
         Shoot();
+        HandleAnimations();
+
     }
 
-    public void Shoot()
+
+    protected virtual void HandleAnimations()
     {
+        if (movementVector.x != 0)
+        {
+            dir = movementVector.x;
+        }
+
+        animator.SetFloat(Direction, dir);
+        animator.SetFloat(Movement, Mathf.Abs(movementVector.x));
+        animator.SetBool(IsAlive, health > 0);
+        animator.SetBool(IsShooting, isShooting);
+
+    }
+
+        public virtual void Shoot()
+        {
         if (!isCloaked)
         {
             //is this function even necessary
@@ -153,13 +186,16 @@ public abstract class Turrets : MonoBehaviour
         switch (attackType)
         {
             case TAttackType.Burst:
+                isShooting = true;
                 selectedAttackType = Burst;
                 break;
             case TAttackType.Shotgun:
+                isShooting = true;
                 selectedAttackType = Shotgun;
                 break;
             case TAttackType.Basic:
                 selectedAttackType = Basic;
+                isShooting = true;
                 break;
             default:
                 break;

@@ -188,6 +188,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9727c70f-c0a2-4a9d-a2bf-b57a2b089955",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "8bc45bdd-fb53-433e-bcc5-6c6a0d902d7a",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
