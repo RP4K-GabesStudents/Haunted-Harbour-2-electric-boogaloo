@@ -387,7 +387,7 @@ PrefabInstance:
     - target: {fileID: 4094187464357764308, guid: c41d2956681f0214e9b6b60133671def, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 597eb9fc609435c47b127cd2253c0af2, type: 2}
+      objectReference: {fileID: 9100000, guid: 19fc902315641b14d89dea2e53b6e913, type: 2}
     - target: {fileID: 4094187464357764309, guid: c41d2956681f0214e9b6b60133671def, type: 3}
       propertyPath: distance
       value: 20
@@ -400,6 +400,10 @@ PrefabInstance:
       propertyPath: attackType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4094187464357764309, guid: c41d2956681f0214e9b6b60133671def, type: 3}
+      propertyPath: targetObject
+      value: 
+      objectReference: {fileID: 1911634319}
     - target: {fileID: 4094187464357764309, guid: c41d2956681f0214e9b6b60133671def, type: 3}
       propertyPath: burstShootDelay
       value: 0.2
@@ -1047,7 +1051,11 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
+<<<<<<< Updated upstream
     m_SensorSize: {x: 2.5522704, y: 1}
+=======
+    m_SensorSize: {x: 2.1271677, y: 1}
+>>>>>>> Stashed changes
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
