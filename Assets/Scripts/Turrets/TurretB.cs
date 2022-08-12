@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class TurretB : Turrets
 {
+    //Audio
+    [SerializeField] protected AudioClip cloakSound;
+    [SerializeField] protected AudioClip uncloakSound;
 
-    [SerializeField] private AudioClip cloak;
     private bool isCloaked;
     SpriteRenderer sr;
+
+    //jumping
+    public Rigidbody2D myRB;
+    private int jumpForce;
 
     protected override void Awake()
 
     {
         base.Awake();
+        myRB = GetComponent<Rigidbody2D>();
         //Cloak(); //this turret autocloaks
 
     }
@@ -20,14 +27,22 @@ public class TurretB : Turrets
     protected override void FixedUpdate()
     {
         base.FixedUpdate();
+        ManageStealth();
         Shoot();
     }
 
-    private void manageStealth()
+    private void ManageStealth()
     {
-        //if within distance uncloak if outside cloak
-        GameManager.Instance.AudioManager.PlayOneShot(cloak);
+        Vector2 line = (targetObject.position - transform.position);
 
+        if (line.magnitude < distance)
+        {
+            Uncloak();
+        }
+        else
+        {
+            Cloak();
+        }
     }
 
     public override void Shoot()
@@ -37,9 +52,10 @@ public class TurretB : Turrets
         base.Shoot();
     }
 
-    private void DoSick360()
+    public void DoSick360()
     {
-        movementVector.y += 1;
+        myRB.velocity = new Vector2(myRB.velocity.x, 0);
+        myRB.AddForce(jumpForce * Time.deltaTime * new Vector2(0, movementVector.y), ForceMode2D.Impulse);
     }
 
     protected void Cloak()

@@ -28,9 +28,6 @@ public abstract class Turrets : MonoBehaviour
     protected Coroutine currentRoutine;
 
     //Audio
-
-    [SerializeField] protected AudioClip cloakSound;
-    [SerializeField] protected AudioClip uncloakSound;
     [SerializeField] protected AudioClip destructionSound;
     [SerializeField] protected AudioClip fireSound;
 
