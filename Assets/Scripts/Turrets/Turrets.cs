@@ -227,7 +227,7 @@ public abstract class Turrets : MonoBehaviour
 
     //tried to pass it a parameter so that we can use it during random selection and whatnot
     //probably a better way to do this but IT WORKS
-    private void ChooseBulletType(int i)
+    protected void ChooseBulletType(int i)
     {
         EBulletType eBulletType = (EBulletType)i;
         bullet = bulletsList[(int)eBulletType];
