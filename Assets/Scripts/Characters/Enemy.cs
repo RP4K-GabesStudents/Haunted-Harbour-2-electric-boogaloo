@@ -78,6 +78,7 @@ public class Enemy : Character
 
     private void ChooseMoveType()
     {
+        myRB.simulated = true;
         switch (movementType)
         {
             case EMovementType.Dumb:

@@ -9,9 +9,10 @@ using static BulletTypes;
 
 public class Character : MonoBehaviour
 {
-    //have health
     //SerializedField means access in unity
     [SerializeField] protected int health; //can be accessed only by parent and child
+    public int maxHealth;
+
     [SerializeField] protected int jumpForce;
     [SerializeField] public float moveSpeed;
     [SerializeField] protected float velocityLimit;
@@ -22,6 +23,8 @@ public class Character : MonoBehaviour
     [SerializeField] protected bool isShootingCircle;
     [SerializeField] public Vector2 movementVector; //this
 
+    [SerializeField] private AudioClip shootSound;
+
     public float distance; //for the enemy distance
 
 
@@ -31,7 +34,7 @@ public class Character : MonoBehaviour
     private float jumpTime;
     [SerializeField] private float endJumpTime;
 
-    
+
     [Header("SHOOTING")]
     [SerializeField] private float shootDelay;
 
@@ -47,7 +50,6 @@ public class Character : MonoBehaviour
 
     private Camera c;
     private float shootTimer = 0;
-
 
     private static readonly int Direction = Animator.StringToHash("Direction");
     private float dir; //last direction of the player
@@ -67,6 +69,8 @@ public class Character : MonoBehaviour
         myRB = GetComponent<Rigidbody2D>(); //When character awake set RB
         animator = GetComponent<Animator>();
         c = Camera.main;
+
+        maxHealth = health; //set max health to be starting health
     }
 
 
@@ -136,10 +140,11 @@ public class Character : MonoBehaviour
     }
 
 
-    public void TakeDamage(int damage, Vector3 force)
+    public virtual void TakeDamage(int damage, Vector3 force)
     {
         health -= damage;
-        myRB.AddForce(-force * damage, ForceMode2D.Impulse); //impulse so that it doesnt accelerate (instant force)
+        //Made force + because was moving wrong way
+        myRB.AddForce(force * damage, ForceMode2D.Impulse); //impulse so that it doesnt accelerate (instant force)
 
         if (health <= 0)
         {
@@ -151,8 +156,7 @@ public class Character : MonoBehaviour
     protected void Shoot()
     {
         shootTimer += Time.deltaTime;
-
-        if (isShooting && shootTimer > shootDelay) //if player is trying to shoot, check timer
+        if (isShooting && shootTimer > shootDelay && health > 0) //if player is trying to shoot, check timer
         {
             shootTimer = 0; //reset timer
 
@@ -229,12 +233,16 @@ public class Character : MonoBehaviour
     {
         GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); //create instance of a bullet, at char position, with no rotation
 
-        go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 5); //hard coded for now, projectile lifetime of 5 seconds
+        go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 3); //hard coded for now, projectile lifetime of 5 seconds
         go.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+
+        GameManager.Instance.AudioManager.PlayOneShot(shootSound);
     }
 
     protected virtual void Die()
     {
+        moveSpeed = 0; // Set movespeed to 0 when dead.
+        jumpForce = 0; // Set jump to 0 when dead
         Destroy(gameObject, 3.0f);
     }
 
@@ -250,12 +258,12 @@ public class Character : MonoBehaviour
     {
         float curTime = 0;
         float intervalTime = 0;
-        while(curTime < effectDuration)
+        while (curTime < effectDuration)
         {
             intervalTime += Time.deltaTime;
             curTime += Time.deltaTime;
 
-            if(intervalTime >= 0.1f)
+            if (intervalTime >= 0.1f)
             {
                 TakeDamage(damage, Vector3.zero);
                 intervalTime = 0;

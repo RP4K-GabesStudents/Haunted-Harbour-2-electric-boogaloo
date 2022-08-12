@@ -7,7 +7,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     int value;
-
+    [SerializeField] protected AudioClip coinCollectSound;
 
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,7 @@ public class Coin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -27,13 +27,8 @@ public class Coin : MonoBehaviour
         if (col.gameObject.TryGetComponent(out Player ply))
         {
             ply.coinCount += value;
-
+            GameManager.Instance.AudioManager.PlayOneShot(coinCollectSound);
             Destroy(gameObject); //1) refers to the time before its destroyed
         }
-    }
-
-    private void OnDestroy()
-    {
-        
     }
 }

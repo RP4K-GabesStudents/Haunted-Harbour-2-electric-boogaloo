@@ -59,7 +59,7 @@ public class Projectiles : MonoBehaviour
     private void FireDamage(Character other)
     {
         GameObject go = Instantiate(particle, other.transform);
-        other.StartCoroutine(other.SetOnFire(effectDuration, 0));
+        other.StartCoroutine(other.SetOnFire(effectDuration, 5));
         Destroy(go, effectDuration);
     }
 
@@ -82,8 +82,6 @@ public class Projectiles : MonoBehaviour
                 hitInstance = FireDamage;
                 break;
         }
-
-
     }
 
 

@@ -113,7 +113,7 @@ public static class MovementTypes
         enemy.movementVector = movement;
     }
 
-    
+
 
     public static void Circle(Enemy enemy)
     {
@@ -124,7 +124,7 @@ public static class MovementTypes
 
         //this is ok
         enemy.transform.position = new Vector3(enemy.targetObject.position.x + (enemy.distance * Mathf.Cos(enemy.angle)), enemy.targetObject.position.y + (enemy.distance * Mathf.Sin(enemy.angle)), 0);
-    
+
     }
 
 }

@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 2
-  particle: {fileID: 0}
+  particle: {fileID: 2812919177469241715, guid: f792625fd987c194e90eea931c5f8c98, type: 3}
   effectDuration: 5
   bulletType: 3
   radius: 1
@@ -190,7 +190,7 @@ Rigidbody2D:
   m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1

@@ -10,7 +10,7 @@ public class Player : Character
 
     protected override void Awake()
     {
-        base.Awake(); 
+        base.Awake();
 
         _controls = new PlayerControls();
         _controls.Enable();
@@ -26,6 +26,8 @@ public class Player : Character
         _controls.controls.CircleShoot.canceled += _ => isShootingCircle = !isShootingCircle;
 
         //_controls.controls.PauseGame.started += _ => GameManager.Instance.PauseGame
+
+        GameManager.Instance.UpdatePlayerHealth(health);
     }
 
     private void MovementInput(InputAction.CallbackContext ctx)
@@ -34,9 +36,9 @@ public class Player : Character
     }
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        health = 5;
+        Move();
         coinCount = 0;
     }
 
@@ -44,12 +46,18 @@ public class Player : Character
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
     protected override void Move()
     {
         base.Move();
+    }
+
+    public override void TakeDamage(int damage, Vector3 force)
+    {
+        base.TakeDamage(damage, force);
+        GameManager.Instance.UpdatePlayerHealth(health);
     }
 }

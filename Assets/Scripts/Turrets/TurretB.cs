@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class TurretB : Turrets
 {
-    SpriteRenderer sr;
-    
-    protected void Awake()
-       
+
+    protected override void Awake()
+
     {
-    sr = GetComponent<SpriteRenderer>();
-
-
-        StartCoroutine(sr.ColorLerp(new Color(255, 255, 255, 0), 5));
+        base.Awake();
+        //Cloak(); //this turret autocloaks
     }
 
-    
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+    }
+
+    private void manageStealth()
+    {
+        //if within distance uncloak if outside cloak
+    }
+
 }
