@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Collider2D))]
+[RequireComponent(typeof(Collider2D), typeof(Rigidbody2D))]
 
 public abstract class Turrets : MonoBehaviour
 {
     //Turret Behavior
     [SerializeField] public int health;
-    public bool isCloaked; //this doesn't determine if something is cloaked or not, it just tells the shoot function whether it is so we can not shoot from a cloaked turret
     public bool isOff;
     [SerializeField] protected bool isShooting;
 
@@ -29,16 +28,13 @@ public abstract class Turrets : MonoBehaviour
     protected Coroutine currentRoutine;
 
     //Audio
-
-    [SerializeField] protected AudioClip cloakSound;
-    [SerializeField] protected AudioClip uncloakSound;
     [SerializeField] protected AudioClip destructionSound;
     [SerializeField] protected AudioClip fireSound;
 
     [SerializeField] public Vector2 movementVector; //this
 
     private static readonly int Direction = Animator.StringToHash("Direction");
-    private float dir; //last direction of the player
+    protected float dir; //last direction of the player
     private static readonly int Movement = Animator.StringToHash("MovementX");
     private static readonly int IsAlive = Animator.StringToHash("IsAlive");
     private static readonly int IsShooting = Animator.StringToHash("Shoots");
@@ -89,8 +85,12 @@ public abstract class Turrets : MonoBehaviour
 
     public virtual void Shoot()
     {
+
         //isShooting = false;
         if (isCloaked) return;
+        
+        isShooting = false;
+
 
         shootTimer += Time.deltaTime; //increment timer
         Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player
