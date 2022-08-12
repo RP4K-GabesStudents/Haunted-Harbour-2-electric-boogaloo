@@ -15,21 +15,21 @@ public class TurretA : Turrets
             if (col.gameObject.TryGetComponent(out Player ply))
             {
                 ply.StartCoroutine(ply.SetTempSpeed(5, ply.moveSpeed * 100));
-                
+
             }
-            
+
         }
-        
+
         base.OnCollisionEnter2D(col);
     }
 
     private void turnOff()
     {
-        
-        
+
+
     }
-    
-    
-    
- 
+
+
+
+
 }

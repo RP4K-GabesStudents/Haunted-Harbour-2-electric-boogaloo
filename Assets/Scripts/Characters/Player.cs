@@ -10,7 +10,7 @@ public class Player : Character
 
     protected override void Awake()
     {
-        base.Awake(); 
+        base.Awake();
 
         _controls = new PlayerControls();
         _controls.Enable();
@@ -45,7 +45,7 @@ public class Player : Character
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 

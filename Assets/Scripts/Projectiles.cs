@@ -82,8 +82,6 @@ public class Projectiles : MonoBehaviour
                 hitInstance = FireDamage;
                 break;
         }
-
-
     }
 
 

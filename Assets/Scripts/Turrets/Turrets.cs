@@ -119,7 +119,7 @@ public abstract class Turrets : MonoBehaviour
     {
         GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); //create instance of a bullet, at char position, with no rotation
 
-        go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 5); //hard coded for now, projectile lifetime of 5 seconds
+        go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 3); //hard coded for now, projectile lifetime of 5 seconds
         go.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
     }
 

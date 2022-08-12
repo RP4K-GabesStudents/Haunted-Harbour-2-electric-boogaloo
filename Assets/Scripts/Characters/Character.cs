@@ -34,7 +34,7 @@ public class Character : MonoBehaviour
     private float jumpTime;
     [SerializeField] private float endJumpTime;
 
-    
+
     [Header("SHOOTING")]
     [SerializeField] private float shootDelay;
 
@@ -233,7 +233,7 @@ public class Character : MonoBehaviour
     {
         GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); //create instance of a bullet, at char position, with no rotation
 
-        go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 5); //hard coded for now, projectile lifetime of 5 seconds
+        go.GetComponentInChildren<Projectiles>().Init(gameObject.layer, 3); //hard coded for now, projectile lifetime of 5 seconds
         go.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
 
         GameManager.Instance.AudioManager.PlayOneShot(shootSound);
@@ -258,12 +258,12 @@ public class Character : MonoBehaviour
     {
         float curTime = 0;
         float intervalTime = 0;
-        while(curTime < effectDuration)
+        while (curTime < effectDuration)
         {
             intervalTime += Time.deltaTime;
             curTime += Time.deltaTime;
 
-            if(intervalTime >= 0.1f)
+            if (intervalTime >= 0.1f)
             {
                 TakeDamage(damage, Vector3.zero);
                 intervalTime = 0;
