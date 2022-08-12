@@ -50,8 +50,10 @@ public abstract class Turrets : MonoBehaviour
 
     protected virtual void Awake()
     {
-        ChooseAttackType(3);
-        ChooseBulletType(1);
+        isOff = false;
+
+        ChooseAttackType(0);
+        ChooseBulletType(0);
         animator = GetComponent<Animator>();
 
     }
@@ -99,7 +101,6 @@ public abstract class Turrets : MonoBehaviour
             Vector2 directionShoot = line.normalized;
             selectedAttackType?.Invoke(this, directionShoot);
             isShooting = true;
-            print("shoot called");
 
             //GameManager.Instance.AudioManager.PlayOneShot(fireSound); 
             //I originally put this here so every time it fired we'd get one noise but separate noises for burst might be better
