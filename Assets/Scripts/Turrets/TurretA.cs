@@ -29,7 +29,15 @@ public class TurretA : Turrets
 
     }
 
+    public override void Shoot()
+    {
+        //ChooseAttackType();
+        //ChooseBulletType(); 
+        //somehow pass it random enums here. i have no idea how to do this and may need to change the original function
 
+        base.Shoot();
+    }
+ 
 
 
 }

@@ -90,8 +90,8 @@ public abstract class Turrets : MonoBehaviour
 
     }
 
-        public virtual void Shoot()
-        {
+    public virtual void Shoot()
+    {
         if (!isCloaked)
         {
             //is this function even necessary
@@ -181,7 +181,7 @@ public abstract class Turrets : MonoBehaviour
         Shotgun
     }
 
-    private void ChooseAttackType()
+    protected void ChooseAttackType()
     {
         switch (attackType)
         {
