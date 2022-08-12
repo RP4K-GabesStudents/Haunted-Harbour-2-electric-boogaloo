@@ -213,7 +213,7 @@ public abstract class Turrets : MonoBehaviour
 
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        Destroy(gameObject, 3);
         GameManager.Instance.AudioManager.PlayOneShot(destructionSound);
     }
 }
