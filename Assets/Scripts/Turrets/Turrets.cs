@@ -16,6 +16,7 @@ public abstract class Turrets : MonoBehaviour
 
     //Shooting Behavior
     GameObject bullet;
+    Vector2 directionShoot;
     [SerializeField] protected GameObject[] bulletsList;
 
      protected float shootTimer;
@@ -53,24 +54,23 @@ public abstract class Turrets : MonoBehaviour
         animator = GetComponent<Animator>();
         targetObject = GameManager.Instance.Player.transform;
     }
-    
+
     // fixed update, because we used time in shooting???
     protected virtual void FixedUpdate()
     {
         Shoot();
         HandleAnimations();
+        dir = (targetObject.position - transform.position).x;
     }
-
 
     protected void HandleAnimations()
     {
-        if (movementVector.x != 0)
+        if (directionShoot.x != 0)
         {
-            dir = movementVector.x;
         }
 
         animator.SetFloat(Direction, dir);
-        animator.SetFloat(Movement, Mathf.Abs(movementVector.x));
+        animator.SetFloat(Movement, Mathf.Abs(directionShoot.x));
         animator.SetBool(IsAlive, health > 0);
         //animator.SetBool(IsShooting, isShooting);
     }
@@ -87,7 +87,8 @@ public abstract class Turrets : MonoBehaviour
         if (line.magnitude < distance && shootTimer > shootDelay) //if turret is within range and timer expired
         {
             //select direction and shoot there using the selected attack type
-            Vector2 directionShoot = line.normalized;
+            directionShoot = line.normalized;
+            dir = directionShoot.x;
             selectedAttackType?.Invoke(this, directionShoot);
             //isShooting = true;
             animator.SetTrigger(IsShooting);
