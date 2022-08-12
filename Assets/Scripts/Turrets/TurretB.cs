@@ -33,7 +33,13 @@ public class TurretB : Turrets
     public override void Shoot()
     {
         if (isCloaked) return;
+        DoSick360();
         base.Shoot();
+    }
+
+    private void DoSick360()
+    {
+        movementVector.y += 1;
     }
 
     protected void Cloak()
