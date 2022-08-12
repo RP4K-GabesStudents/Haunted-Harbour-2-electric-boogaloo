@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -23,9 +24,26 @@ public class TurretA : Turrets
         base.OnCollisionEnter2D(col);
     }
 
+    private void Update()
+    {
+        turnOff();
+    }
+
     private void turnOff()
     {
+        turretShootTimer += Time.deltaTime;
 
+        if (turretShootTimer > 7) // if the turret has been shooting for 7 seconds
+        {
+            isOff = true;
+            turretShootTimer = 0;
+        }
+        
+        if (turretShootTimer > 3 && isOff) // if the turret has been off for 3 seconds
+        {
+            isOff = false;
+            turretShootTimer = 0;
+        }
 
     }
 
