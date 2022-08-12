@@ -8,7 +8,6 @@ public abstract class Turrets : MonoBehaviour
 {
     //Turret Behavior
     [SerializeField] public int health;
-    public bool isCloaked; //this doesn't determine if something is cloaked or not, it just tells the shoot function whether it is so we can not shoot from a cloaked turret
     public bool isOff;
     [SerializeField] protected bool isShooting;
 
@@ -89,7 +88,6 @@ public abstract class Turrets : MonoBehaviour
     public virtual void Shoot()
     {
         isShooting = false;
-        if (isCloaked) return;
 
         shootTimer += Time.deltaTime; //increment timer
         Vector2 line = (targetObject.position - transform.position); //get the distance from turret to player

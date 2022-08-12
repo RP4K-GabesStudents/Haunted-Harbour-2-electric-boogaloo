@@ -20,6 +20,7 @@ public class TurretB : Turrets
     protected override void FixedUpdate()
     {
         base.FixedUpdate();
+        Shoot();
     }
 
     private void manageStealth()
@@ -31,7 +32,8 @@ public class TurretB : Turrets
 
     public override void Shoot()
     {
-
+        if (isCloaked) return;
+        base.Shoot();
     }
 
     protected void Cloak()
