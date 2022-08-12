@@ -27,6 +27,7 @@ public class TurretA : Turrets
     private void Update()
     {
         turnOff();
+        Shoot();
     }
 
     private void turnOff()
@@ -49,9 +50,11 @@ public class TurretA : Turrets
 
     public override void Shoot()
     {
-        //ChooseAttackType();
-        //ChooseBulletType(); 
-        //somehow pass it random enums here. i have no idea how to do this and may need to change the original function
+        int attack = UnityEngine.Random.Range(0, 3);
+        int bullet = UnityEngine.Random.Range(0, 4);
+
+        ChooseAttackType(attack);
+        ChooseBulletType(bullet); 
 
         base.Shoot();
     }
