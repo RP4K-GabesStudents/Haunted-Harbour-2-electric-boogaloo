@@ -8,7 +8,25 @@ public class TurretA : Turrets
 {
 
     private float turretShootTimer;
+    [SerializeField] private float turretMoveSpeed;
 
+    private Rigidbody2D myRB;
+
+
+    protected override void Awake()
+    {
+        base.Awake();
+        
+        int attack = UnityEngine.Random.Range(0, 3);
+        int bullet = UnityEngine.Random.Range(0, 4);
+
+        ChooseAttackType(attack);
+        ChooseBulletType(bullet);
+
+        myRB = GetComponent<Rigidbody2D>();
+
+    }
+    
     protected override void OnCollisionEnter2D(Collision2D col)
     {
         if (col.transform.position.y > transform.position.y)
@@ -57,6 +75,8 @@ public class TurretA : Turrets
         ChooseBulletType(bullet); 
 
         base.Shoot();
+        
+        myRB.AddForce(turretMoveSpeed * Time.deltaTime * new Vector2(dir, 0), ForceMode2D.Impulse);
     }
  
 
