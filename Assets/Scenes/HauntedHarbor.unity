@@ -541,20 +541,17 @@ MonoBehaviour:
   isOff: 0
   isShooting: 0
   distance: 10
-  bullet: {fileID: 0}
   bulletsList:
   - {fileID: 1930664520520271510, guid: 38c3f0e50ec9c27458d5450426df4324, type: 3}
   - {fileID: 4860388887964909589, guid: be060d9104e22b044b1b561e0a80b207, type: 3}
   - {fileID: 5474946165435932391, guid: 39bc438b7d7ef5045a455483078c55b7, type: 3}
   - {fileID: 8865856709697546355, guid: d6a070ea0d2570f4c8c12bec2d01c0fc, type: 3}
-  shootTimer: 0
-  burstShootDelay: 0.5
+  burstShootDelay: 0.2
   shootDelay: 1
   bulletSpeed: 2
   targetObject: {fileID: 1911634319}
   destructionSound: {fileID: 0}
   fireSound: {fileID: 0}
-  movementVector: {x: 0, y: 0}
   turretMoveSpeed: 0
 --- !u!1 &419851092
 GameObject:
@@ -1053,7 +1050,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.195277, y: 1}
+    m_SensorSize: {x: 2.0893536, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2388,7 +2385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4094187464357764310, guid: c41d2956681f0214e9b6b60133671def, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -60.16195
+      value: -50.8
       objectReference: {fileID: 0}
     - target: {fileID: 4094187464357764310, guid: c41d2956681f0214e9b6b60133671def, type: 3}
       propertyPath: m_LocalPosition.y

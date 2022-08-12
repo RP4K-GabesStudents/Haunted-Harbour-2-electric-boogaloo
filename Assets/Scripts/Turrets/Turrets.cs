@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,20 +8,20 @@ using UnityEngine;
 public abstract class Turrets : MonoBehaviour
 {
     //Turret Behavior
-    [SerializeField] public int health;
-    public bool isOff;
+    [SerializeField] protected int health;
+    [SerializeField] protected bool isOff;
     [SerializeField] protected bool isShooting;
 
     public float distance;
 
     //Shooting Behavior
-    [SerializeField] GameObject bullet;
-    [SerializeField] public GameObject[] bulletsList;
+    GameObject bullet;
+    [SerializeField] protected GameObject[] bulletsList;
 
-    [SerializeField] protected float shootTimer;
+     protected float shootTimer;
     [SerializeField] protected float burstShootDelay;
     [SerializeField] protected float shootDelay;
-    [SerializeField] float bulletSpeed;
+    [SerializeField] private float bulletSpeed;
     [SerializeField] protected Transform targetObject;
     protected int shotgunBulletAllowance = 6;
     protected int shotgunSpread = 10;
@@ -31,7 +32,7 @@ public abstract class Turrets : MonoBehaviour
     [SerializeField] protected AudioClip destructionSound;
     [SerializeField] protected AudioClip fireSound;
 
-    [SerializeField] public Vector2 movementVector; //this
+    protected Vector2 movementVector; //this
 
     private static readonly int Direction = Animator.StringToHash("Direction");
     protected float dir; //last direction of the player
@@ -50,25 +51,18 @@ public abstract class Turrets : MonoBehaviour
         ChooseAttackType(0);
         ChooseBulletType(0);
         animator = GetComponent<Animator>();
-
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
         targetObject = GameManager.Instance.Player.transform;
     }
-
+    
     // fixed update, because we used time in shooting???
     protected virtual void FixedUpdate()
     {
         Shoot();
         HandleAnimations();
-
     }
 
 
-    protected virtual void HandleAnimations()
+    protected void HandleAnimations()
     {
         if (movementVector.x != 0)
         {
@@ -78,17 +72,12 @@ public abstract class Turrets : MonoBehaviour
         animator.SetFloat(Direction, dir);
         animator.SetFloat(Movement, Mathf.Abs(movementVector.x));
         animator.SetBool(IsAlive, health > 0);
-//        animator.SetBool(IsShooting, isShooting);
-    
-
+        //animator.SetBool(IsShooting, isShooting);
     }
 
     public virtual void Shoot()
     {
 
-        //isShooting = false;
-        if (isCloaked) return;
-        
         isShooting = false;
 
 
@@ -112,7 +101,7 @@ public abstract class Turrets : MonoBehaviour
     }
 
     //WHAT THIS DOES IS MAKE A BULLET
-    protected virtual void startShoot(Vector2 direction)
+    private void startShoot(Vector2 direction)
     {
         GameObject go = Instantiate(bullet, transform.position, Quaternion.identity); //create instance of a bullet, at char position, with no rotation
 
@@ -127,7 +116,7 @@ public abstract class Turrets : MonoBehaviour
         GameManager.Instance.AudioManager.PlayOneShot(fireSound);
     }
 
-    protected static IEnumerator Timer(Turrets t, Vector2 dir, float time)
+    private static IEnumerator Timer(Turrets t, Vector2 dir, float time)
     {
         for (int i = 0; i < 3; i++)
         {
@@ -139,13 +128,13 @@ public abstract class Turrets : MonoBehaviour
         t.currentRoutine = null;
     }
 
-    protected static void Burst(Turrets turret, Vector2 direction)
+    private static void Burst(Turrets turret, Vector2 direction)
     {
         if (turret.currentRoutine == null)
             turret.currentRoutine = turret.StartCoroutine(Timer(turret, direction, turret.burstShootDelay));
     }
 
-    protected static void Shotgun(Turrets turret, Vector2 direction)
+    private static void Shotgun(Turrets turret, Vector2 direction)
     {
         for (int i = 0; i < turret.shotgunBulletAllowance; i++)
         {
@@ -215,6 +204,10 @@ public abstract class Turrets : MonoBehaviour
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject, 3);
+    }
+
+    private void OnDestroy()
+    {
         GameManager.Instance.AudioManager.PlayOneShot(destructionSound);
     }
 }

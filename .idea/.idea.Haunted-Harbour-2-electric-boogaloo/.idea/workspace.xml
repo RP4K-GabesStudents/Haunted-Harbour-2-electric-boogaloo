@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9ec6d3b-1724-47b0-bafc-d3f50abad45b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Haunted-Harbour-2-electric-boogaloo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Haunted-Harbour-2-electric-boogaloo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Turrets/TurretA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Turrets/TurretA.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e9ec6d3b-1724-47b0-bafc-d3f50abad45b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +43,7 @@
 }</component>
   <component name="RunManager" selected="Standalone Player.UnitTests (batch mode)">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.7f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="N:\Unity\2021.3.7f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -84,6 +81,7 @@
       <updated>1660250664677</updated>
       <workItem from="1660250669866" duration="300000" />
       <workItem from="1660327602098" duration="1457000" />
+      <workItem from="1660332528547" duration="1026000" />
     </task>
     <servers />
   </component>
